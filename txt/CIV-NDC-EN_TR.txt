@@ -1,0 +1,1368 @@
+
+
+
+
+
+
+PROPOSED CONTRIBUTIONS DETERMINED AT THE NATIONAL LEVEL OF COTE D'IVOIRE 
+1. National context
+Key facts 
+
+
+
+Area
+322,463 km² - 550 kilometers of coastline
+
+
+
+
+Climate
+South: equatorial climate, hot and humid.
+North: drier tropical climate
+
+
+Population
+22.67 million, of which 41.5% are under 15 years old (RGPH, 2014)
+
+
+GNP
+$ 34.25 billion (2014)
+
+
+GNI / h
+$ 1,550 (2014)
+
+
+Weight in world GDP
+0.06% Constant Purchasing Power Parity (PPP) in 2011
+
+
+Share of agriculture in GDP
+24%
+
+
+Primary energy consumption / h
+0.64 toe in 2012
+
+
+Access to electricity
+56% of households
+
+
+
+Sources: RGPH 2014, NDP 2016-2020, AfDB, World Bank, DHS 2011-2012, IEA, NAIP 2010-2015 
+After a decade of politico-military crisis that has led to a deep social divide, Côte d'Ivoire has set itself the goal of becoming an emerging country by 2020. To stimulate and coordinate the many facets of its development, the Côte d'Ivoire has returned to its planning tradition.
+The country has also returned to rapid growth (in the order of 8% per year), in a context of peace. Populations are also beginning to take advantage of the renewed dynamism, thanks to efforts to redistribute and correct the inequalities achieved in the different sectors.
+The 2016-2020 NDP currently being finalized to consolidate this trajectory towards emergence and industrialization. This planning is part of a longer-term vision. The National Prospective Study "Ivory Coast 2040" is also being finalized.
+The country 's national development strategy combined with high population growth would lead to a substantial increase in greenhouse gas (GHG) emissions. In addition, Côte d'Ivoire is vulnerable to the impacts of climate change.
+To meet these challenges, in 2012, Côte d'Ivoire set up the National Climate Change Program (NCCP) to coordinate, propose and promote measures and strategies in the fight against climate change. A National Strategy for Combating Climate Change 2015-2020 was adopted at the end of 2014.
+Through this Nationally Determined Planned Contribution (INDC), Ivory Coast, the United States seeks to reduce its carbon footprint by favoring mitigation options with high "co-benefits" (Section 2: Mitigation); strengthen the country's resilience to climate change (Section 3: Adaptation); bring coherence to its sectoral policies and strengthen its mechanism and implementation tools to facilitate the achievement of these objectives (Section 4); and mobilize for this purpose, including funding, both national and international (Section 5).
+2. Mitigation
+2.1. Contribution of Ivory Coast
+While taking into account the need to reduce greenhouse gas emissions, Ivory Coast, as African economies face the challenge of development to improve the quality of life of its population. The growing need for this development, which includes increasing agricultural production, agro-industrial processing, the fight against deforestation and the continuation or even the acceleration of the supply of modern energy to all inhabitants, does not undermine the country's political will to contribute to the reduction of GHG emissions. However, Côte d'Ivoire needs to be supported to pursue the path of sustainable development, respectful of the environment and concerned about the challenges of climate change.
+The INDCs of Côte d'Ivoire are therefore a contribution based on the development of the sectoral development strategies providing for the support of the technical and financial partners.
+
+
+
+Type of contribution 
+Combination of objectives and mitigation actions
+
+
+
+
+National long-term goal on GHG emissions
+Low Carbon Scenario (2030)
+Reduction of GHG emissions compared to emissions in the target year (2030) in a baseline scenario (Business As Usual or BAU).
+
+
+Target year
+2030
+
+
+Base year
+2012
+
+
+Cumulative reduction of emissions by 2030
+Low Carbon Scenario (2030)
+-28%
+
+
+Sector objectives
+Low Carbon Scenario (2030)
+Composition of the electricity mix: 26% of coal, 32% of combined cycle natural gas, 26% of hydropower and 16% of other renewable energy sources (Renewable energy sources), ie a total of 42% of renewable energy in the electricity mix in 2030.
+Intensification and mechanization of agriculture and animal production.
+Reduction of GHG emissions due to deforestation and forest degradation.
+Sustainable management and recovery of waste.
+
+
+Equity of the Contribution
+Côte d'Ivoire has low GHG emissions with only 0.81 tCO 2 / cap (excluding forestry)
+The necessary development of Côte d'Ivoire (+ 8.4% GDP growth by 2030) would be accompanied by an increase in emissions to 1,17 tCO 2 / inhab (+ 44.4%) in 2030 .
+
+
+Ambition of the Contribution
+Côte d'Ivoire is committed to:
+Increase to 42% the share of renewable energy in the electricity mix (including large hydropower).
+Implement the strategy to reduce GHG emissions from deforestation and forest degradation in addition to sustainable forest management and ambitious reforestation policies (REDD +).
+The 28% drop in emissions from the low-carbon scenario compared to a baseline scenario (BAU) represents a significant effort for a country with a GDP per capita of 148th worldwide (2014, on a PPP basis).
+
+
+Short-lived atmospheric pollutants (PCDV / SLCP)
+Côte d'Ivoire is committed to reducing short-lived climate pollutants that have an impact on climate in addition to long-lasting GHGs. To this end, the country will develop by 2018 a national action plan to reduce PCDV / SLCP whose contributions to global warming are clearly established by UNEP in its 2011 report.
+
+
+
+2.2. Basic Scenarios and Low Carbon Development
+The figure below shows ( i ) 2012 base year emissions, ( ii ) a Business As Usual scenario and ( iii ) a low-carbon development scenario showing the impact of large-scale sectoral actions whose implementation may be subject to additional external support.
+
+
+
+
+Total emissions (ktonne equivalent CO 2 )
+15,964.35
+34,253.25
+24,576.16
+
+
+
+The table below shows the relative shares of the different sub-sectors in GHG emissions.
+
+
+
+Sub-sectors
+2012
+BAU (2030)
+Low Carbon Scenario (2030)
+
+
+Emissions (ktonne Equiv CO 2 )
+Emissions (ktonne Equiv CO 2 )
+Percentage increase over 2012
+Emission (ktonne Equiv CO 2 )
+Percentage decrease compared to BAU
+
+
+
+
+Electricity production 
+3,442.63
+11,892.00
+52.93
+9,216.56
+-7.81
+
+
+Transport 
+2,389.36
+6,441.27
+25.38
+4,477.55
+-5.73
+
+
+Industry 
+1,000.81
+2,698.01
+10.63
+1,875.48
+-2.40
+
+
+Energy supply 
+781.64
+2,136.39
+8.49
+1,485.08
+-1.90
+
+
+buildings 
+627.03
+1,690.34
+6.66
+1,175.02
+-1.50
+
+
+Agriculture 
+6,140.80
+7,059.16
+5.75
+4,722.57
+-6.82
+
+
+Waste 
+1,582.08
+2,336.09
+4.72
+1 623.90
+-2.08
+
+
+Total
+15,964.35 
+34,253.25
+114.56
+24,576.16
+-28.25
+
+
+
+2.3. Assumptions and methodological approaches
+
+
+Lens type
+% Reduction from target year emissions in a baseline scenario.
+
+
+
+Start of implementation of INDC
+2016.
+
+
+Coverage (country)
+All the countries.
+
+
+Gas covered
+Carbon Dioxide (CO2 ), Methane (CH4 ), Nitrous Oxide (N2O).
+
+
+Sectors / sources covered
+Agriculture, Energy, Waste, LULUCF (Forestry: not included in the inventories).
+
+
+Basic scenario (BAU)
+This scenario describes the evolution of GHG emissions by 2030 by sector of activity according to the Government's current development strategies.
+
+
+Mitigation scenario (low carbon)
+This scenario describes the evolution of GHG emissions by 2030 on the basis of low-carbon orientations in the main sectors of activity, notably energy, agriculture and waste.
+
+
+Sources for scenarios (BAU and Low Carbon)
+ENP 2040, PND 2016-2020, Master Plan Production and Transmission of Electric Power 2014-2030, PNIA 2010-2015, Industrial Policy (2013).
+
+
+PRG
+The GWP values ​​used are those determined by the Intergovernmental Panel on Climate Change (IPCC, SAR).
+
+
+Baseline Emissions Projection Methodology (BAU)
+The inventory of the base year (2012) is that of the Third National Communication (TCN).
+The baseline scenario (BAU) is constructed by applying to the emissions of the different sectors assumptions of evolution depending on sectoral annual growth rates, the evolution of the population, the electricity mix and the trend evolution of efficiency. sector.
+
+
+Projection methodology for the low carbon scenario
+The low-carbon scenario is constructed by applying to sector emissions of the baseline scenario an estimate of the gains associated with the implementation of policies and projects in the sector.
+
+
+Land Use Approach, Land Use Change and Forestry (LULUCF) Emissions Approach
+The emissions of this important sector in Côte d'Ivoire will have to be analyzed more precisely by 2020 in order to be integrated into the overall objective. This can be done thanks to the better knowledge of the areas by soil type thanks to the satellite imagery coupled with the exploitation of the field data.
+
+
+
+2.4. Mitigation actions
+Côte d'Ivoire intends to implement the following Mitigation Actions 1 :
+
+
+
+Agriculture/Forestry 
+Key Issues in Agriculture: ( i ) Self-reliance and Food Security Research and ( ii ) Improving Productivity and Competitiveness Big Challenge for the Forest Sector: Sustainable Forest Management and Target of 20% National Coverage in the Forest Code 2014
+Key Message: Zero Deforestation Agriculture Concept
+
+
+
+
+Orientation 
+Actions / actions 
+Co-benefits 
+
+
+Economic 
+social 
+environmental 
+
+
+Consistency of national planning and rural spatial planning to develop agriculture and the forestry sector 
+Consistency of National Agricultural Investment Plans (NAIP) with strategies to limit deforestation (REDD + process) through a master plan for land use planning in 2030 (securing land) in consultation with each agricultural sector and the territories
+Enhancing the economic benefits of the NAIP and forest development plans
+
+Reduction of social conflicts 
+Social inclusion
+
+
+
+Reduction of GHG emissions
+Overall increase of forest carbon
+Maintaining biodiversity and ecosystem services
+
+
+
+Drafting of a regional spatial planning scheme for the different regions with the involvement of local communities
+Economic development of the regions
+Reduction of social conflicts
+Increased ecosystem services
+
+
+Delimitation of village territories and materialization of boundaries with forest species
+Mastery of land and spatial dynamics of land occupation
+Reduction of social conflictsSocial inclusion
+Increased ecosystem services
+
+
+Securing land with the involvement of agricultural inter-branches, cooperatives and the private sector to facilitate procedures and achieve economies of scale
+Facilitate investment in the land use sector
+- Reducing social conflict-Social cohesion
+Increased ecosystem services
+
+
+Agricultural development without extension on the remaining forest areas and less emitting GHGs 
+Decoupling of agricultural production and deforestation through the promotion of intensive agricultural practices with reduced impacts on the environment and agroforestry
+
+Improved productivity and wealth creation
+Increased yields and farm income
+Stimulation of the creation of light agricultural industries in rural areas
+
+
+Positive effects on the social economy: job creation in rural areas (about 400,000 agricultural jobs expected for the current NAIP)
+Poverty reduction
+
+
+Reduction of GHG emissions
+Maintaining ecosystem services
+
+
+
+Realization of the concept "Zero deforestation agriculture" and valorization of associated products
+
+Improvement of the productivity of the natural factors of production (earth, climatic factors)
+Increased yields and farm income
+
+
+Reduction of social conflicts
+Job creation
+Rural poverty reduction
+Reduction of the exodus of young people and rejuvenation of the peasant world
+
+
+Reduction of GHG emissions
+Increased forest carbon
+Maintaining biodiversity and ecosystem services
+
+
+
+Development of basic infrastructure that will improve the logistics of transport of agricultural products, livestock and fish farming
+
+Lower post-harvest losses and higher incomes
+Stimulation of the creation of light agricultural industries in rural areas
+
+
+Job growth
+Reduction of the exodus of young people and rejuvenation of the peasant world
+
+
+
+
+Intensification of environmentally sound agricultural, livestock and fisheries production to prevent deforestation 
+Promotion and intensification of the production and use of high-yielding and resistant seeds, particularly climatic factors and diseases (non-GMOs and hybrids)
+Increased productivity and income
+Creation of sustainable value chains and jobs
+Reduction of pressure on agricultural land
+
+
+Strengthening partnerships and collaborations on soil analysis to improve their productivity and improve the implementation of agricultural innovations
+Increased agricultural innovation and yields
+Job creation
+Maintaining ecosystem services
+
+
+Streamlining the use of chemical inputs and facilitating the use of organic inputs
+Reduction of medical costs related to the uncontrolled use of chemical inputs
+Reduction of health risks related to chemical inputs
+Reduction of environmental damage due to chemical inputs
+
+
+Development of efficient mechanization of agriculture and improvement of packaging, harvesting and conservation infrastructure
+Lower post-harvest losses and higher incomes
+Job creation
+Maintaining ecosystem services
+
+
+Promotion of sustainable and integrated practices to improve agricultural production capacities and enhance the resources of the environment 
+Promotion of the agriculture-livestock association, agroforestry, and conservation agriculture particularly at the level of community and private plantations
+Increased yields and farm income
+Reduction of social conflicts
+Improvement of biodiversity
+
+
+Maximum reduction in rice submersion to limit methane emissions
+Maintaining agricultural yields
+Maintenance of jobs
+Reduction of GHG emissions
+
+
+Sustainable management of organic soils
+
+Improved productivity and wealth creation
+Increased yields and farm income
+
+
+Reduction of social conflicts
+Maintenance of jobs
+
+
+Maintaining ecosystem services
+
+
+
+Strengthening and popularizing the results of scientific research on natural resource management (including soil science and physiology pathology and post-harvest technology)
+
+
+Improved cropping calendars and production techniques
+Increased yields and farm income
+
+Reduction of social conflicts
+Maintenance of jobs
+
+
+
+Forest sector development through sustainable forest management and improvement of forest governance
+Implementation of Forest Law Enforcement, Governance and Trade Mechanism (FLEGT)
+Revival of the forest economy
+Improving forest governance
+Maintaining ecosystem services
+
+
+Drafting and implementation of management plans and participatory management of classified forests
+Diversification of local community incomes
+People's participation in forest management
+Maintaining ecosystem services
+
+
+Stabilization of the extension of agricultural areas in classified forests
+Securing farmers' income
+Job creation
+Preservation of biodiversity
+
+
+Restoration of classified forests with the involvement of local communities
+Diversification of local community incomes
+Job creation
+Increased carbon stocks
+
+
+Strengthening sustainable management of classified forests and protected areas, including through spatial land monitoring
+
+Maintaining agricultural yields linked to the micro climate
+Stimulation of ecotourism activities
+
+
+Creation of ecotourism jobs
+Reduction of the exodus of young people
+
+
+Preservation and enhancement of biodiversity and natural habitats 
+Maintaining ecosystem services
+
+
+
+Facilitating the rehabilitation of degraded lands and reforestation of savannah areas, and strengthening carbon stocks in degraded forests through the promotion of village reforestation
+
+Diversification of revenue sources
+Available carbon credit
+
+
+Reduction of social conflicts
+Job growth
+Reduction of the exodus of young people and rejuvenation of the peasant world
+
+
+Restoration of biodiversity and natural habitats
+Increased ecosystem services
+
+
+
+Establishment of an incentive payment scheme for environmental services (PES) to encourage village reforestation and conservation of natural forests in rural areas and support small producers to adopt sustainable production practices
+Increased community income
+Job creation
+
+Increased carbon stocks
+Increased ecosystem services
+
+
+
+Development of sustainable domestic energy solutions for the cooking needs of populations 
+Reforestation with fast-growing wood energy species; Promotion of improved stoves and Promotion of alternatives in charcoal through the valorization of agricultural biomass
+Diversification of local community incomes
+
+Green job creation
+Improvement of the living conditions of women in rural areas
+
+Reduction of GHG emissions
+
+
+costs 
+The overall cost of the PNIA 2010-2015 is estimated at CFAF 2,040 billion, of which CFAF 1,565 billion for the period 2012-2015 (same order of magnitude for PNIA 2016-2020).
+The low carbon orientation of future plans will have to be distilled on all components
+
+
+
+
+
+
+
+Energy / Transportation 
+Major energy issues: ( i ) Improve people's access to electricity and energy at an affordable price; and ( ii ) Increase the use of renewable energy in electricity generation Key message: "42% renewable energy including large hydropower in the electricity mix"
+
+
+
+
+
+Orientation 
+Actions / actions 
+Effects / Benefits 
+
+
+Economic 
+social 
+environmental 
+
+
+Control of energy consumption of the systems by a voluntarist energy efficiency policy including renewable energy
+Cross-cutting measures
+
+
+Investment in energy efficiency and improvement of the participation rate of renewable energy in the electricity mix by 2030
+
+Productivity gains and improved competitiveness
+Diversification of primary energy sources
+Reducing dependence on fossil fuels
+Improved access to safe and abundant energy sources
+
+
+Development of new qualified job streams
+Impact on health and improvement of quality of life
+Reduction of social conflicts
+Improved coverage and access rates for energy services
+
+
+Reduction of GHG emission levels, including CO 2
+Decrease of pressure on natural resources
+
+
+
+Establishment of an institutional and regulatory framework for renewable energy and energy efficiency
+Improving the environment around the energy sector
+
+Development of new qualified job streams
+Reduction of social conflicts
+Improved coverage and access rates for energy services
+
+Reduction of GHG emission levels, including CO 2
+Decrease of pressure on natural resources
+
+
+
+Strengthening Côte d'Ivoire's integration into the regional energy market, through interconnection with other countries in the region
+
+Increase in national income
+Strengthening Côte d'Ivoire's share in UEMOA GDP
+
+
+Improved quality of life
+Reduction of social conflicts
+Improved coverage and access rates for energy services
+
+
+Reduction of GHG emission levels, including CO 2
+Decrease of pressure on natural resources
+
+
+
+Sub-sectoral measures: Industry
+
+
+Implementation of a strategy to reduce wastage in the energy consumption of industries through:
+
+energy diagnosis or audit to establish a balance sheet of energy consumption and uses;
+counting to have reliable and continuous data on
+the consumption.
+
+
+Productivity gains
+Improving competitiveness
+Reduction of the energy bill
+
+
+Development of new qualified job streams
+Earnings gains
+
+
+Reduction of GHG emission levels, including CO 2
+Reduced ecological footprint
+
+
+
+Encouraging companies to invest in energy efficient equipment
+
+Productivity gains
+Improving competitiveness
+Reduction of the energy bill
+
+Development of new qualified job streams
+
+Reduction of GHG emission levels, including CO 2
+Decrease of pressure on natural resources
+
+
+
+Evaluate potential substitution or optimization (eg cogeneration or upgrading);
+
+Productivity gains
+Improving competitiveness
+Reduction of the energy bill
+
+Development of new qualified job streams
+
+Reduction of GHG emission levels, including CO 2
+Decrease of pressure on natural resources
+
+
+
+Sub-sector measures: Buildings sub-sector
+
+
+Development of national regulations on the thermal efficiency of buildings (construction and renovation)
+
+Reduction of the energy bill
+Earnings gains
+
+
+Development of new qualified job streams
+Improved quality of life
+
+
+Reduction of GHG emission levels, including CO 2
+Decrease of pressure on natural resources
+
+
+
+Training of all actors in the value chain in low energy construction
+
+Reduction of the energy bill
+Earnings gains
+
+
+Development of new qualified job streams
+
+
+Reduction of GHG emission levels, including CO 2
+Decrease of pressure on natural resources
+
+
+
+Sub-sectoral measures: Transport sub-sector
+
+
+Improving mobility and developing low-carbon transport offers
+
+Reduction of the energy bill
+Earnings gains
+
+
+Improved quality of life
+
+
+Reduction of GHG emission levels, including CO 2
+Decrease of pressure on natural resources
+
+
+
+Integration of an energy / climate dimension in territorial planning documents in order to limit distances, to work on functional diversity and to propose efficient public transport policies
+
+Reduction of the energy bill
+Earnings gains
+
+
+Improved quality of life
+
+
+Reduction of GHG emission levels, including CO 2
+Decrease of pressure on natural resources
+
+
+
+Accompaniment of the communes in the development of urban transport plans (example of the urban train in the district of Abidjan)
+
+Reduction of the energy bill
+Earnings gains
+
+
+Improved quality of life
+
+
+Reduction of GHG emission levels, including CO 2
+Decrease of pressure on natural resources
+
+
+Facilitating the purchase of low-emission vehicles and scrapping the most polluting through standards, incentives or obligations
+
+Reduction of the energy bill
+Earnings gains
+
+
+Improved quality of life
+
+
+Reduction of GHG emission levels, including CO 2
+Decrease of pressure on natural resources
+
+
+
+Development of energy production from renewable sources 
+Put in place an incentive framework for the development of renewable energies (call for tenders, FIT, tax exemption, ...)
+
+Diversification of primary energy sources
+Reduction of energy dependence on fossil fuels
+Improved access to safe and abundant energy sources
+
+
+Development of new qualified job streams
+Impact on health and improvement of quality of life
+Reduction of social conflicts
+
+
+Reduction of GHG emission levels, including CO 2
+Decrease of pressure on natural resources
+
+
+
+Remove barriers to investment (strengthening the institutional framework, securing investments, training banks, ...)
+Productivity gains and improved competitiveness of the economy
+Development of new qualified job streams
+Impact on health and improvement of quality of life
+Reduction of social conflicts
+
+Reduction of GHG emission levels, including CO 2
+Decrease of pressure on natural resources
+
+
+
+Invest in R & D, particularly by strengthening the capacities of the Renewable Energy Research Institute (IREN) and evaluate the opportunity of creating a Renewable Energy Promotion Agency
+
+Broadening the field of knowledge on energy efficiency
+Improving the competitiveness of the economy
+
+
+Development of new qualified job streams
+Improved quality of life
+Reduction of social conflicts
+
+
+Reduction of GHG emission levels, including CO 2
+Decrease of pressure on natural resources
+
+
+
+Facilitate the development of projects on the relevant sectors:
+
+Small hydropower
+Methanization (waste, agricultural residues ...)
+Photovoltaic (promotion of solar PV Kits, PV pumping system ...)
+Biomass (sustainable exploitation of wood energy)
+
+
+Broadening the field of knowledge on energy efficiency
+Earnings gains
+Improving the competitiveness of the economy
+
+
+Development of new qualified job streams
+Improved quality of life
+Reduction of social conflicts
+
+
+Reduction of GHG emission levels, including CO 2
+Decrease of pressure on natural resources
+
+
+
+Waste 
+Major issues of waste: (i) Improve urban sanitation; and (ii) Ensuring sustainable management and recovery of waste
+
+
+directions 
+Measures/actions 
+Effects/Benefits 
+
+
+Economic 
+social 
+environmental 
+
+
+Efficient recovery of resources to move towards a circular economy 
+Develop and implement a sustainable waste management policy and strategy including the valorisation aspect
+
+Increased income and national wealth
+Contribution to the modernization of the economy and productivity gains
+
+
+Development of new job streams
+Improvement of the quality of life of the populations
+Reduction of social conflicts
+
+
+Reduction of GHG emission levels; 
+Improving the quality of the environment
+Reducing pressures on natural resources
+
+
+
+Develop circular economy actions:
+
+Eco-design of products
+Recovery / use and recycling of waste (agricultural, forestry and household)
+Composting
+Valorization of wastewater
+
+
+Increased income and national wealth
+Contribution to the modernization of the economy and productivity gains
+
+
+Development of new job streams
+Improvement of the quality of life of the populations
+Reduction of social conflicts
+
+
+Reduction of GHG emission levels;
+Improving the quality of the environment
+Reducing pressures on natural resources
+
+
+
+costs 
+The 2014-2030 Generation and Transmission Energy Master Plan specifies that the total amount of production-transport investments for the period 2014-2030 amounts to 8,000 billion FCFA. The additional investments related to the mining sector would cost close to 1,600 billion FCFA.
+
+
+
+3. Adaptation 
+
+
+
+Framework of the action 
+Description
+
+
+
+
+Impacts and vulnerability
+Impacts: floods, storms, landslides, heat-wave droughts, bush fires, reduced river flow and dwindling surface water volume, shortened average duration of vegetative growth periods, and increased exposure of plants to water stress , low growth of plant biomass, reduction of the productive potential of ecosystems, reduction of arable land due to degradation, coastal erosion up to 3 meters per year, which can reach 6 to 12 meters during storms, attenuation of the phenomenon of upwelling seasonal have impacts on: agriculture and livestock, land use, forests, water resources, energy, coastal areas, fisheries, infrastructure (habitats), transport, public health and gender.
+Eleven vulnerable sectors indicated in May 2013 by the Minister of the Environment, Urban Sanitation and Sustainable Development (MINESUDD) with the aim of proposing a National Adaptation Plan
+
+
+
+High vulnerability 
+Medium or low vulnerability:
+
+
+
+
+Agriculture/Livestock/Aquaculture
+Land use
+forests
+Water resources
+Energy
+Coastal areas
+Peach
+Infrastructures (habitats)
+Transport (roads)
+Public health
+Kind
+
+
+
+
+
+Actions to Plan for Climate Resilient Development 
+SEGMENT 
+Water Resources: Control and management of water resources (strengthening of watershed planning and coordination, development of agro-pastoral dams, development of new hydro-agricultural sites and reservoirs, improvement of water efficiency irrigation, recovery of rainwater and floodwater ...
+Agriculture / Livestock / Fisheries : Improve production technologies, build capacity of actors
+Forests and land use: improve silvicultural species, promote reforestation and agro-ecology, restore degraded lands, promote fertility improvement techniques and soil conservation
+Coastal zones: Regulate the construction and extraction of sand on the coast, relocate and rebuild structures in danger on a fallback line, build active protection structures (groynes, breakwaters), passive, restoration (curtains wind, revegetation, even reforestation -mangroves-).
+Energy : Organize the wood energy sector, avoid the silting up of streams, reprofile and restore flows in the minor beds of rivers. Popularize the construction and use of improved stoves in rural areas
+
+
+Loss and damage 
+Human losses: losses related to hydro-meteorological disasters, vector-borne diseases (to illnesses-malaria, water-borne diseases, respiratory diseases) and related to bush fires;
+Losses linked to coastal erosion: Costs ranging from 2.355 to 6.75 billion FCFA (US $ 4.0 to 6.75 million) for land losses in the event of submersion between 0.5 and 2 meters
+Loss of agricultural production (at least 10% of annual rice production is CFAF 50 billion or US $ 85.6 million - based on the cost of importing rice - 10% of annual cocoa production, or about US $ 202 million established on the cocoa export price, "destruction of large areas of oil palm and coconut in the Abidjan regions."
+Loss of infrastructure (houses, roads, etc.).
+"The reduction of water resources and the impact on food production and habitat are to be assessed, as are the public health implications".
+
+
+Obstacles, gaps and needs for successful adaptation actions 
+Obstacles:lack of integration of climate change policies into national and sectoral policies
+low capacity of livelihoods (physical, national, social, institutional, ...) of rural communities
+Gaps:
+poor understanding of the concept of climate change.
+illiteracy.
+Needs :
+human, institutional, technical and financial capacity building and technology transfer.
+
+
+
+
+
+
+activities 
+Objectives and Description
+Co-benefits
+Cost (billion FCFA or millions of US $)
+
+
+
+
+Water resources 
+
+
+Control and manage water resources
+Reduce vulnerability and increase resilience
+- Implement Integrated Water Resources Management (IWRM) 
+Implement for national watersheds (BVs) and strengthen for cross-border BV planning and coordination
+Develop agro-pastoral dams to facilitate livestock watering
+Develop hydro-agricultural sites and water reservoirs to improve food production
+Improve irrigation efficiency to limit water consumption
+Valorize rainwater and floodwaters (capture and storage of runoff)
+Strengthen the capacity of farmers and other users in irrigation
+Production planning to stabilize consumer prices and producers' incomes
+Water reservoirs make it possible to increase fish resources, to evolve towards integrated production systems
+Availability of sufficient drinking water for human needs
+NAIP (Land for Intensive Crops 84.86 billion FCFA - US $ 14.3 million), facilitate access to small irrigation equipment, 1.8 billion FCFA - US $ 3.03 million - realize hydro-agricultural schemes 28.37 billion FCFA - US $ 47.8 million, support the maintenance of irrigation facilities and equipment 0.6 billion FCFA - US $ 0.1 million, rehabilitate pastoral dams and the reservoirs of water 3 billion FCFA .- US $ 5.05 million
+
+
+Agriculture 
+
+
+Strengthen agricultural, animal and fish production (agricultural sector 23% of GDP over the period 2000-2013)
+Reduce vulnerability and increase resilience 
+Develop the agro-ecological approach (soil fertility management practices, development of the use of organic fertilizers and compost from household waste, the agriculture-livestock association)
+Improve production technologies through access to improved and adapted inputs (food, forage, drought-resistant silvicultural seeds, animal gene bank, quality fry, manure and compost management to improve soil fertility, etc.) .)
+Develop storage and conservation units to limit high post-harvest losses
+Promote and popularize resilient crop species resilient to climate change
+Develop seasonal forecasts that strengthen the resilience to climate change of farming practices
+Promote women's access to rural land
+Food self-sufficiency through improved yields (30% for rice with improved seeds)
+Combating poverty and maintaining social peace by improving the purchasing power of rural communities, job creation must be a whole point.
+Reduction of import dependency and improvement of agricultural exports (SNDCV indicates 40% of export earnings)
+Taking into account the gender aspect (women)
+SNDCV (agricultural seed development plan12.05 billion FCFA - US $ 20.3 million, direct support to production activities 540 billion FCFA - US $ 909.9 million)
+NRDS (technical support to production - rice seeds, inputs and mechanization: 299 billion FCFA - US $ 503.8 million).
+PSDEPA (productivity and competitiveness improvement 80.948 billion FCFA - US $ 136.4 million of which 2.18 billion - US $ 3.7 million - for the production of fodder and seeds, preservation of aquaculture genetic diversity 7 , 45 billion FCFA - US $ 12.6 million)
+
+
+Forests and land use 
+
+
+Fight against deforestation and land degradation
+Reduce vulnerability and increase resilience 
+Improve silvicultural species, promote agroforestry, restore degraded lands.
+Promote sustainable land management through improved soil and water conservation (SWC) techniques.
+Develop the landscape approach for sustainable land management and water and soil conservation.
+Poverty alleviation (exploitation of non-timber forest products, improvement of agricultural yields, use of traditional pharmacopoeia).
+Preservation of terrestrial fauna and flora diversity.
+Durability of soil quality
+PF (Reduction of the impact climate change 33.64 billion FCFA.- US $ 20 million) NAIP (support the diffusion of technological innovations 0.43 billion FCFA -US $ 0.7 million-, technical CES 5 billion from FCFA -US $ 8.4 million-).
+
+
+Hydrometeorological Disaster Management 
+
+
+Building resilience, especially through the fight against coastal erosion
+Reduce vulnerability and increase resilience, especially for the Sassandra - Vridi - Port-Bouët section 
+Evaluate hydrometeorological risks and implement mitigation measures
+Set up a multi-risk alert system
+Set up a contingency plan and efficient response plans
+Inform, educate and communicate on hydro-meteorological risks
+Strengthen the capacities of actors in Disaster Risk Reduction (DRR) and Disaster Management
+Systematically assess loss and damage and post-disaster recovery and construction
+Develop coastline observation and identify areas at risk of erosion (monitoring coastal erosion).
+Protect habitat (enforce the regulation on the construction and extraction of sand on the coast, relocate and rebuild structures in danger on a fallback line, build active protection structures -epis, breakwater, passive, restoration-windbreaks, revegetation, reforestation -mangroves-).
+Set up an experimental microproject fund for local protection against erosion
+Preservation of agriculture (zone of plantations of oil palm, pineapple, banana, rubber and coconut trees).
+Preservation of lagoon and coastal biological diversity.
+Habitat preservation
+Preserving vulnerable coastal areas
+SACCL (dynamic modeling of coastal profile 0.184 billion FCFA - US $ 0.31 million), reforestation of mangroves and other appropriate species 0, 65 billion FCFA - US $ 1.1 million, establishment of a fund 1, CFAF 95 billion - US $ 3.3 million -SACCL considers secondary development against erosion in Assinie 19.97 billion FCFA - US $ 33.6-, around the Vridi canal, the opening of the exit Comoé 22.55 billion FCFA - US $ 38 million.
+
+
+
+4. INDC Planning, Implementation and Monitoring Process
+Côte d'Ivoire will take the following measures to implement these INDCs, monitor them and, if necessary, update / revise them 2 .
+
+
+
+
+Description
+Goal
+
+
+
+
+Legislative and regulatory framework
+Adoption of legal texts relating to the implementation, monitoring and evaluation of INDCs and COP resolutions of the Conference of the Parties.
+Sustaining low-carbon development actions across successive governments
+
+
+Institutional frame 
+Creation of an Interministerial Committee on Climate Change (CICC) bringing together ministers in charge of relevant sectors, chaired by the Prime Minister and responsible in particular for monitoring the implementation of INDCs
+Ensure effective implementation of a national cross-cutting climate policy
+
+
+Establishment of a CICC Secretariat (CICCS) anchored in MINESUDD to technically support the CICC in planning, coordinating the implementation, monitoring and evaluation of INDCs and having a clear roadmap calibrated on the periodicity of the PND
+
+
+Operation-nalisation of INDCs 
+Assessment of the climate impact of any new law or public policy / program / project (impact study)
+Integrate mitigation and adaptation considerations into public decision-making processes
+
+
+Translation of INDCs into sectoral operational programs articulated with / included in the PND
+Operationalize INDCs in particular through the national planning process
+
+
+Integration of Climate Change (CC) into national planning (NDP) and sectoral policies as well as local planning.
+Consistency of NDPs and sectoral plans and policies (eg NAIPs) especially with disaster risk reduction with country mitigation and adaptation goals and actions formulated in these INDCs
+
+
+Some complementary studies (to be carried out after submission of the INDC):Consolidate the national inventory of GHG emissions
+Refine the costs of INDC Actions
+Strengthen knowledge of land use and management in Côte d'Ivoire (satellite images + field survey)
+Studying the potential of renewable energy in Côte d'Ivoire 3
+Develop a climate-energy strategy
+Study the strengthening of the consideration of energy and climate in agricultural policy in preparation for the development of the PNIAC [National Agriculture and Climate Investment Plan] 2020-2030
+To propose an optimal network of reference for monitoring water level variations from existing piezometers reflecting the relationship between climate and hydrological regime of rivers
+Study the desirability of a price and a carbon market at the domestic and regional level (see below)
+Encrypt and refine the description of INDC mitigation and adaptation actions
+
+
+Study of the feasibility of a system for coding CC expenditure in the state budget
+Revenue monitoring and climate expenditure in the national budget
+
+
+Improved systems for establishing and collecting GHG emissions data
+Conducting an annual GHG inventory
+Obtain reliable data on GHG emissions
+
+
+Creation of an Observatory of air quality (CO, SO, etc.) and GHG monitoring
+Monitoring of air quality
+
+
+Strengthening research and development and transfer actions in clean technologies.
+
+
+
+Communication
+Launch of a communication campaign at the end of 2015 on the INDCs and the COP 21, particularly for the private sector and local authorities;
+Capacity building of local actors before awareness campaigns;
+Establishment of a dedicated website on national climate change policy / INDC where the above indicators will be published
+
+
+Update / Revision of INDCs 
+Frequency: Revision in light of the results of COP21, if necessary. Every 5 years in connection with the PND unless otherwise indicated by the COPs
+
+
+Responsible: SCICC Secretariat
+
+
+
+5. Means of implementation 
+
+
+Funding 
+Côte d'Ivoire intends to mobilize the following sources to finance the mitigation and adaptation actions of these INDCs:
+
+
+Private Finance 
+Côte d'Ivoire intends to mobilize international or domestic private financing (equity and loans) as much as possible for the co-financing of relevant INDC actions, particularly actions that can generate an acceptable financial return for the sector. private. To this end, Côte d'Ivoire will strive to increase the bank rate, stimulate the formation of savings, and strengthen domestic financial markets and banking systems, as well as the attractiveness of Côte d'Ivoire for foreign investment (investment climate)
+
+
+National budget 
+Côte d'Ivoire will play its part in financing the actions of these INDCs, which are part of the state budget. This state effort can take the form either of direct budgetary expenditure or transit through specific funds financed from the state budget.
+
+
+Donors / PTF 
+Côte d'Ivoire will seek support from donors and TFPs (grants, loans and technical assistance) to finance the actions of these INDCs. Access to sovereign loans from Development Finance Institutions (DFIs) will be crucial.
+
+
+Green Climate Fund 
+Côte d'Ivoire is considering whether to set up a national entity accredited to the Green Climate Fund (GCF). It is already in the process of preparing for the operationalization of the GCF at the national level (Readiness Program)
+
+
+Carbon markets 
+Côte d'Ivoire supports the inclusion of international carbon markets such as the Clean Development Mechanism (CDM) in a post-2020 climate agreement and proposes that such an instrument, coupled with an appropriate accounting regime (MRV) , can be used to help finance some investments in low carbon and climate resilient infrastructure. Côte d'Ivoire considers that some of the low-carbon development options contained in these INDCs, or additional actions, could be financed in whole or in part by the international transfer of carbon assets taking into account the integrity considerations of the environment and transparency.
+
+
+Other economic instruments 
+The opportunity to deploy tools to generate a price signal on the social cost of carbon (market or carbon tax) and thus to internalize the carbon externality will be explored
+
+
+First five-year period 
+A first five-year tranche of Actions to be financed is in preparation and will be presented during the 4th quarter of 2015. It will be consistent with, and reflected in, the 2016-2020 NDP.
+
+
+Capacity Building 
+Mitigation
+At all levels: link between development, natural disaster risk reduction, energy and climate change
+For decision-makers: the interests of integrating energy and climate thinking into all sectoral policies
+For operators: implementation of low-carbon development, for example: 
+Farmers: Agricultural practices allowing sustainable intensification of production; management methods and valorisation of agricultural residues. 
+Entrepreneurs: The keys to success in developing a renewable energy project in rural areas; valorization of products resulting from a sustainable agriculture.
+
+
+Adaptation
+The capacity building of actors (especially women, farmers, etc.) focuses on new technical routes in the context of intensified and sustainable production methods.
+Inform, educate and communicate on climate risks 
+Strengthen the system of observation of meteorological phenomena through synoptic stations
+Set up a system of early warning multi-risks
+Strengthen national and local capacities for disaster risk reduction and emergency preparedness in case of disasters
+Environmental Information Management System 
+Create an air quality management center responsible for the following activities:
+Ensure the watch on the ambient air pollution
+Evaluate pollutant releases at the source
+Inform the public about the state of air quality
+Provide state reports on air pollution for decision-making
+Promote the establishment of an air quality observatory
+Strengthen regional and international cooperation in the field of air quality
+Train a person responsible for this observatory / air quality management center.
+Create a dynamic network of observation and monitoring of the coastline nationwide to identify areas at risk of coastal erosion and examination of one or more indicators reflecting the relationship climate / coastal erosion
+
+
+
+Transfers and technology development, R & D 
+Development of partnerships between companies and research centers on the development of low-carbon solutions.
+Improved access to tools (eg timing of crop cycles in the rainy season)
+
+
+
+
+6. Annexes 
+Main abbreviations 
+
+
+BAD
+African Development Bank
+
+
+DC
+Climatic changes
+
+
+THESE
+Water and soil conservation
+
+
+COP
+Conference of the Parties (at the UNFCCC)
+
+
+SCOND
+Expected Contribution Determined at the National Plan
+
+
+EE
+Energetic efficiency
+
+
+ENP
+National Prospective Ivory Coast 2040
+
+
+RE
+Renewable energies
+
+
+CFA
+Franc CFA
+
+
+GHG
+Greenhouse gas
+
+
+IFD
+Financial Institutions of Development
+
+
+INDC
+Intended Nationally Determined Contribution (INDC)
+
+
+IREN
+Research Institute on Renewable Energies
+
+
+NAMAs
+Nationally Appropriate Mitigation Actions
+
+
+OECD
+Organization for Economic Cooperation and Development
+
+
+PF
+Forestry Policy and Strategic Plan for Implementation
+
+
+GDP
+Gross domestic product
+
+
+PND
+National Development Plan
+
+
+NIPA
+National Agricultural Investment Plan
+
+
+UNEP
+United Nations Environment Program
+
+
+PPP
+Purchasing Power Parity
+
+
+PSDEPA
+Strategic Plan Development of Livestock, Fisheries and Aquaculture
+
+
+PTF
+Technical and Financial Partners
+
+
+REDD +
+Reduction of GHG Emissions from Deforestation and Forest Degradation (Reduced Emissions from Deforestation and Forest Degradation)
+
+
+SACCL
+Climate Change Adaptation Strategy on Côte d'Ivoire Coast
+
+
+SCECCI
+Côte d'Ivoire Coastal Environmental Management Strategy and National Action Plan
+
+
+SNDCV
+National Strategy for the Development of Food Crops other than Rice
+
+
+NRDS
+Revised National Strategy for the Development of the Rice Sector
+
+
+US $
+United States Dollar
+
+
+LULUCF
+Land use, land use change and forests
+
+
+
+References 
+
+
+
+General / transversal 
+
+
+
+
+Planning
+National Development Plan (NDP) 2012-2015
+PN 2016-2020 project
+National Prospective Study "Côte d'Ivoire 2040" (project)
+
+
+Country data
+AfDB Country Brief and Delegation of the European Union
+Demographic and Health Survey and Multiple Indicators 2011-2012 (June 2013)
+
+
+Mitigation 
+
+
+General
+First National Communication to the UNFCCC 2000
+Second National Communication to the UNFCCC 2010
+Draft Third National Communication (currently being finalized)
+
+
+Agriculture
+NAIP 2010-2015
+Sector strategies (SNDR, SNDCV, 3rd Palm Plan, Hevea Plan, Cocoa Plan)
+
+
+Energy
+Electricity code
+Draft Master Plan Production and Transmission of Electric Power 2014-2030
+Action Plan for Renewable Energies (PANER),
+Action Plan for Energy Efficiency (PANEE)
+Action Agenda for Sustainable Energy for All (SE4ALL)
+
+
+Forest
+New forest code 2014
+UN-REDD + (R-PP)
+
+
+Industry
+Industrial policy
+
+
+Adaptation 
+
+
+Framework of the action
+National Development Plan 2011-2015 and 2016-2020 (PND).
+National Agricultural Investment Program 2010-2015 (PNIA).
+National Strategy for the Development of Food Crops other than 2013-2020 Rice (SNDCV).
+Revised National Strategy for the Development of the Rice Sector 2012-2020 (NRDS)
+Strategic Plan Livestock, Fisheries and Aquaculture Development 2014-2020 (PSDEPA)
+Coastal Environment Management Strategy in Côte d'Ivoire and National Action Plan 2016-2020 (SGECCI) 2015.
+Initial National Communication of Côte d'Ivoire to the UNFCCC (2000)
+Second National Communication of Côte d'Ivoire to the UNFCCC (2010)
+National Climate Change Program 2015-2020 (PNCC).
+National Environmental Policy 2011.
+
+
+Vulnerability
+ABBOTT, P. (2013), Cocoa and Cotton Sectors in West Africa: Roles of Policies and Institutions in Integrating Smallholder Farmers into Market Systems, In: Rebuilding Africa's Food Potential West, A. Elbehri (ed.), FAO / IFAD.
+AHOSSANE K., JALLOH A., NELSON G., THOMAS TS (2012): West African agriculture and climate change: comprehensive analysis - Côte d'Ivoire.
+AGBRI L. (2014): Climate-smart agriculture in Côte d'Ivoire: state of play and support needs to better integrate climate-smart agriculture (CAI) in the NAIP.
+YAO N'GUETTIA R. (2013): Study of the vulnerability of the agricultural sector to climate change in Côte d'Ivoire www.rti.ci/ infos_Politique.html of 22 05 2013)
+http://www.gcca.eu/fr/intra-acp/climate-support-facility/cote-divoire-definition-dun-cadre-institutionnel-de-mise-en
+
+
+stock
+International Trade Center (2011): Cotton and climate change, impacts and options for reduction and adaptation.
+IFAD (2014): Agricultural Production and Marketing Support Project - West Extension (PROPACOM West). Final design report. Main report and appendices.
+SALVA-TERRA (2013): Cost-benefit study of REDD + in Côte d'Ivoire and mobilization of stakeholders in major agricultural and forestry sectors.
+Coastal Adaptation Strategy for Côte d'Ivoire, 2012.
+
+
+
+
+
+
+These actions are formulated at a high level of aggregation consistent with the spirit of the INDC, which should not be a catalog of programs and projects. Subsequent work will be needed to translate these orientations into operational programs. ↩
+Depending on the outcome of negotiations on the development of a new international climate agreement. ↩
+Côte d'Ivoire is currently conducting a study on the potential of bioenergy. ↩
+
