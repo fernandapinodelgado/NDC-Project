@@ -34,3 +34,6 @@ def extract_a_ids(html_dir, a_id_csv, filter_EN):
 if __name__ == "__main__":
     extract_a_ids(ndc_html_dir, "../csv/A-IDs.csv", True)
     os.system("sort ../csv/A-IDs.csv > ../csv/sorted-A-IDs.csv")
+
+    extract_a_ids(ndc_html_dir, "../csv/A-IDs-ALL-LANGS.csv", False)
+    os.system("sort ../csv/A-IDs-ALL-LANGS.csv > ../csv/sorted-A-IDs-ALL-LANGS.csv")
