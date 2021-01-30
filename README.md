@@ -1,3 +1,3 @@
 # NDC-Project
 
-`main.py` takes all files in the **html/** directory and outputs a plaintext version of each file with the same name using `BeautifulSoup.text` in the **txt/** directory. Currently, that is all this does.
+`main.py` contains two functions: `extract_a_ids`, which extracts all tags labeled `id` in `<a id=...></a>` in each NDC HTML file, and `html_to_txt`, which loads all NDC HTML files and outputs an unfiltered, plaintext version for each one.
