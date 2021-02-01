@@ -39,27 +39,48 @@ def calc_tfidf(ndc_txt_dir: str, ngram_range: tuple):
     return df
 
 
-def highest_ngrams(df: pd.DataFrame, num_highest, query):
+def rank_ngrams(df: pd.DataFrame, count, query, descending=True):
     """
-    Returns a ranking of words with the highest tf-idf score for a given document.
+    Returns a ranking of words with the highest/lowest tf-idf scores for a given document.
     :param df: DataFrame with tf-idf data
-    :param num_highest: number of highest words to output
+    :param count: number of words to output
     :param query: document to query words for
+    :param descending: Toggles descending/ascending order, True by default
     :return: Series containing words and tf-idf scores
     """
     df = df.transpose()
-    return df.nlargest(num_highest, query)[query]
+    if descending:
+        return df.nlargest(count, query)[query]
+    else:
+        return df.nsmallest(count, query)[query]
 
+
+def rank_docs(df: pd.DataFrame, count, query, descending=True):
+    """
+    Returns a ranking of documents with the highest/lowest tf-idf scores for a given n-gram.
+    :param df: DataFrame with tf-idf data
+    :param count: number of documents to output
+    :param query: word to query documents for
+    :param descending: Toggles descending/ascending order, True by default
+    :return: Series containing documents and tf-df scores
+    """
+    if descending:
+        return df.nlargest(count, query)[query]
+    else:
+        return df.nsmallest(count, query)[query]
+
+
+tfidf_data = calc_tfidf('txt/', (1, 2))  # Calculate tf-idf on monograms
 
 # Example usage
-tfidf_data = calc_tfidf('txt/', (1, 1))  # Calculate tf-idf on monograms
-ranking = highest_ngrams(tfidf_data, 10, 'AFG-INDC-EN')  # Find 10 highest tf-idf scoring words for Afghanistan's INDC
-print(ranking)
+# ngram_ranking = rank_ngrams(tfidf_data, 10, 'AFG-INDC-EN')  # Find 10 highest tf-idf scoring words for Afghanistan's INDC
+# print(ngram_ranking)
+
+# tfidf_data.to_csv('tfidf.csv')  # Only run to output whole dataset
 
 '''
-Notes: (last updated 01/29/2021)
+Notes: (last updated 01/31/2021)
 - Filter out country names and demonyms in word ranking
-- Write function to rank countries by tf-idf score for given word
 - Expected common words like "climate" and "change" end up with high tf-idf scores. Why?
   I expect that those common words should have low scores across all documents since they
   should be found in every document in the corpus. Perhaps misunderstanding tf-idf or
@@ -67,4 +88,6 @@ Notes: (last updated 01/29/2021)
 - Use some unsupervised clustering method to find similar groups of documents
 - Implement method to save tf-idf matrix so we don't have to re-calculate it every time,
   currently very time consuming for bigram and trigram queries
+- Is there any difference between INDCs and NDCs?
+- rank_ngrams and rank_docs are really similar functions, maybe try to merge them into one
 '''
