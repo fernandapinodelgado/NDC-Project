@@ -95,38 +95,38 @@ tfidf_data = calc_tfidf('txt/', (1, 1))  # Calculate tf-idf on monograms
 # # ranking = rank_docs(tfidf_data, 10, 'wildfires')
 # # print(ranking)
 
-# tfidf_data.to_csv('tfidf.csv')  # Only run to output whole dataset
+tfidf_data.to_csv('tfidf.csv')  # Only run to output whole dataset
 
-monograms = {}
-for country in countries:
-    monogram_ranking = rank_ngrams(tfidf_data, 20, country)
-    monograms[country] = list(monogram_ranking.index.values)
-
-df_monograms = pd.DataFrame(monograms)
-df_monograms = df_monograms.transpose()
-df_monograms.to_csv('monograms.csv', header=None)
-
-tfidf_data = calc_tfidf('txt/', (2, 2))  # Calculate tf-idf on bigrams
-
-bigrams = {}
-for country in countries:
-    bigram_ranking = rank_ngrams(tfidf_data, 20, country)
-    bigrams[country] = list(bigram_ranking.index.values)
-
-df_bigrams = pd.DataFrame(bigrams)
-df_bigrams = df_bigrams.transpose()
-df_bigrams.to_csv('bigrams.csv', header=None)
-
-tfidf_data = calc_tfidf('txt/', (3, 3))  # Calculate tf-idf on trigrams
-
-trigrams = {}
-for country in countries:
-    trigram_ranking = rank_ngrams(tfidf_data, 20, country)
-    trigrams[country] = list(trigram_ranking.index.values)
-
-df_trigrams = pd.DataFrame(trigrams)
-df_trigrams = df_trigrams.transpose()
-df_trigrams.to_csv('trigrams.csv', header=None)
+# monograms = {}
+# for country in countries:
+#     monogram_ranking = rank_ngrams(tfidf_data, 20, country)
+#     monograms[country] = list(monogram_ranking.index.values)
+#
+# df_monograms = pd.DataFrame(monograms)
+# df_monograms = df_monograms.transpose()
+# df_monograms.to_csv('monograms.csv', header=None)
+#
+# tfidf_data = calc_tfidf('txt/', (2, 2))  # Calculate tf-idf on bigrams
+#
+# bigrams = {}
+# for country in countries:
+#     bigram_ranking = rank_ngrams(tfidf_data, 20, country)
+#     bigrams[country] = list(bigram_ranking.index.values)
+#
+# df_bigrams = pd.DataFrame(bigrams)
+# df_bigrams = df_bigrams.transpose()
+# df_bigrams.to_csv('bigrams.csv', header=None)
+#
+# tfidf_data = calc_tfidf('txt/', (3, 3))  # Calculate tf-idf on trigrams
+#
+# trigrams = {}
+# for country in countries:
+#     trigram_ranking = rank_ngrams(tfidf_data, 20, country)
+#     trigrams[country] = list(trigram_ranking.index.values)
+#
+# df_trigrams = pd.DataFrame(trigrams)
+# df_trigrams = df_trigrams.transpose()
+# df_trigrams.to_csv('trigrams.csv', header=None)
 
 
 '''
