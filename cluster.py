@@ -43,6 +43,8 @@ tfidf_data.rename(columns={'Unnamed: 0': 'ID'}, inplace=True)
 # print(tfidf_data)
 
 vectors = tfidf_data[tags]
+vectors_labeled = tfidf_data[tags+['ID']].set_index('ID')
+vectors_labeled.to_csv('csv/vectors.csv')  # Only run to output whole dataset
 # print(vectors)
 
 kmeans = KMeans().fit(vectors)

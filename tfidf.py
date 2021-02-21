@@ -95,7 +95,7 @@ tfidf_data = calc_tfidf('txt/', (1, 1))  # Calculate tf-idf on monograms
 # # ranking = rank_docs(tfidf_data, 10, 'wildfires')
 # # print(ranking)
 
-tfidf_data.to_csv('tfidf.csv')  # Only run to output whole dataset
+tfidf_data.to_csv('csv/tfidf.csv')  # Only run to output whole dataset
 
 # monograms = {}
 # for country in countries:
