@@ -1,0 +1,881 @@
+
+
+
+
+
+
+REPUBLIC OF CAMEROON 
+NATIONAL DETERMINED CONTRIBUTION (INDC) 
+INTENDED NATIONALLY DETERMINED CONTRIBUTION (INDC) 
+1. National context 
+
+
+
+Key facts
+
+
+
+
+
+Area (km2)
+475.440
+
+
+Climate
+Very variable according to the 5 agro-ecological zones, cf. footnote 2
+
+
+Population (2013)
+22,253,000
+
+
+GNP (billion US $ 2014)
+32.5
+
+
+GNP / Cap (US $ 2013) (US $ PPP 2013)
+1,308 (2,400)
+
+
+Share of agriculture in GDP and total employment (2014)
+20% and 60%
+
+
+Primary energy consumption (Mtep 2012)
+6.98
+
+
+Primary energy consumption / population (2012 toe)
+0.32
+
+
+Share of fossil fuels in primary consumption (2012)
+28%
+
+
+Share of fossil energies in the electric bouquet (2014)
+46%
+
+
+Installed installed electrical capacity (2013)
+1,400 MW
+
+
+Electrification rate
+51%
+
+
+
+Sources: National sources; World Bank; EU delegation from various sources.
+The Cameroon INDC is anchored in the vision that the country has drawn for its future by 2035: to become an emerging country. This objective is accompanied by a set of intermediate objectives: (i) poverty reduction; (ii) the attainment of the middle-income country stage, (iii) the attainment of the New Industrialized State stage, and (iv) the consolidation of the democratic process and national unity while respecting the diversity that characterizes the country. country. In economic terms, this will include sustained growth, and a doubling of the secondary sector in the GDP structure (from 19 to 38 per cent).
+Cameroon is a weak emitter of GHGs (2nd National Communication). This ambitious development strategy will result in a strong increase in emissions.
+Through this INDC, Cameroon intends to reduce the carbon footprint of its development without slowing its growth, by favoring mitigation options with high co-benefits (Section 2: Mitigation) ; strengthen the country's resilience to climate change (Section 3: Adaptation) ; bring coherence to its sectoral policies and strengthen its mechanism and implementation tools to facilitate the achievement of these objectives (Section 4) ; and mobilize for this purpose (section 5) .
+2. Mitigation 
+
+
+
+The Cameroon Contribution
+
+
+
+
+Type of contribution
+An emission reduction target with mitigation and adaptation actions
+
+
+National long-term goal on GHG emissions
+Reduction of GHG emissions by 32% compared to a baseline scenario for the target year (2035), and conditional on support from the international community in the form of financing, capacity building actions and transfer of technologies.
+
+
+Target year
+2035
+
+
+Reference year
+2010
+
+
+Main sectoral objectives
+Scenario INDC: (i) greening (intensification, sedentarisation) of agricultural policy; (ii) sustainable forest management; (iii) increased energy supply and improved energy efficiency; (iv) 25% renewable energy in the electricity mix by 2035.
+
+
+Ambition of the Contribution
+Cameroon's emissions reduction target represents a significant effort for a country with insignificant emissions at the international level, with a GDP per capita of 148th worldwide (2013, PPP basis).
+
+
+Equity of the Contribution
+The reduction of 32% in 2035 is of the same order or proposed by comparable countries or in the sub-region. This level of commitment is made to reduce emissions / increase carbon sinks (reforestation, sustainable forest management).
+
+
+
+Scenario of Reference and Low Carbon Development (INDC) 
+The following graphs show (i) a baseline scenario in which no new public intervention moderates Cameroon's development-related emissions and (ii) a low-carbon development CPDN scenario (with identical GDP and development level) showing the impact of major sectoral mitigation actions. This INDC scenario is conditional on the support of the international community in the form of financing, capacity building actions and technology transfer.
+In the baseline scenario, GHG emissions reach 104 MtCO 2 -equ. in 2035, an increase of 166% over 2010. In the INDC scenario, the increase in emissions is contained at 71 MtCO 2 -equ. in 2035, an increase of 82% compared to 2010 (39 MtCO 2 -equ.). In other words, the increase in emissions compared to the base year is halved (32 against 65 MtCO 2 -equ.).
+
+
+
+
+Assumptions and methodological approaches
+
+
+
+
+Lens type
+Percentage reduction relative to the emissions of the target year in a baseline scenario.
+
+
+Coverage (country)
+All the countries.
+
+
+Gas covered
+Carbon Dioxide (CO 2 ), Methane (CH 4 ), Nitrous Oxide (N 2 O)
+
+
+Sectors / sources covered
+Agriculture, Energy, Forest, Waste - (excluding LULUCF for the reduction target)
+
+
+Reference scenario
+This scenario describes the evolution of GHG emissions by 2035 by business sector based on current development strategies.
+
+
+DIAND Mitigation Scenario
+This scenario describes the evolution of GHG emissions by 2035 on the basis of low carbon orientations in the main sectors of activity, notably energy and agriculture.
+
+
+Sources for Scenarios
+IEA data, World Bank, Enerdata, EDGAR, FAO, UNEP; Development Strategies (Cameroon Vision 2035, DSCE), Sector Strategies (ESDP, NAIP, etc.).
+
+
+Global Warming Potency (GWP)
+The GWP values ​​used are those determined by the Intergovernmental Panel of Climate Experts (IPCC, AR4).
+
+
+Emissions for the reference year
+The reference year inventory is based on IEA, FAO and EDGAR data. Data to review in the next inventory.
+
+
+Methodology of projection of the emissions of the reference scenario
+The reference scenario is constructed by applying to the emissions of the various sectors assumptions of evolution depending on the sectoral growth rates, the evolution of the population, the energy mix and the trend evolution of the efficiency of the sector.
+
+
+Projection Methodology for the INDC Scenario
+The INDC scenario is constructed by applying to sector emissions in the baseline scenario an estimate of the reductions resulting from the implementation of sectoral actions - agriculture, forest, waste, energy (eg electricity mix 25% RE: 11% micro-hydro 7% biomass, 6% solar PV, 1% wind energy).
+
+
+Approach to Land Use, Change of Occupation and Forestry (LULUCF) Emissions
+The emissions of this important sector in Cameroon will have to be analyzed more precisely by 2020 in order to be integrated into the overall objective. This can be done thanks to a better knowledge of the areas by type of soil.
+
+
+
+
+Mitigation actions 
+Cameroon intends to implement the following Mitigation Actions, consistent with its development orientations.
+Agriculture / Fishing / Livestock / Forest 
+Key issues in the agriculture / livestock / fisheries sector: (i) Self-reliance, food security, agribusiness development and (ii) Improved productivity and competitiveness. 
+Major challenges in the forestry sector: (i) Sustainable management of forests through the exploitation and development of productive forests in the context of management plans, (ii) Contribution to economic growth and the fight against poverty through retrocession part of tax revenue to communities, job creation, creation of communal forests in the DFP and community forests in the DFnP (iii) Conservation of biodiversity through the strengthening of the national network of protected areas, (iv) Consolidation of the land system through zoning plans. 
+KEY MESSAGE: "Agriculture has been and remains the pillar of the country's ambition to emerge, but it is possible and even necessary to limit its carbon impact. Sustainable forest management will increase the carbon sink. This low-carbon growth will bring important co-benefits (economic and social development, job creation, improvement of the environment and health, etc.). "
+
+
+
+Orientation
+stock
+Cost-benefit analysis
+
+
+
+
+1) Coherence in planning and planning of rural areas to develop agriculture while limiting deforestation / degradation
+- Ensure coherence between agricultural development plans and strategies to limit deforestation or degradation (REDD + process) thanks to the National Development Plan and the sustainable development of the territory (planned for 2017) in consultation with each of the sectors and the territories; - Create conditions conducive to the development of the sector by improving governance by involving all stakeholders and relying on decentralization, to ensure effective and efficient planning, programming, budgeting, mobilization of funding , implementation and monitoring-evaluation of rural sector development;- Strengthen sustainable management and enhancement of forests and biodiversity, including through spatial monitoring of land; - Promote the rehabilitation of degraded lands and reforestation of man-made savannas, and strengthen carbon sinks in degraded forests; - Develop basic infrastructure that will improve the logistics of transportation of agricultural products, livestock and fish farming.
+Impacts on greenhouse gas emissions: Assessing the impact of these agricultural or forestry strategies would require the collection of reliable and measurable data. However, a simplified exercise was conducted to assess the trends: - The baseline scenario, based on the assumption of growth of the agricultural sector, leads to a 3-fold increase in the sector's greenhouse gas emissions in 2035 compared to to the reference year. - The low-carbon scenario would allow a 33% decrease in emissions in 2035 compared to the reference scenario.Co-benefits of agricultural development and deforestation limitation strategy:
+- development of infrastructures and provision of equipment to improve the quality of life, especially in rural areas; - improving productivity and agricultural growth to improve competitiveness, wealth creation and poverty reduction; - stimulation of the creation of light agricultural industries in rural areas: positive effects on the social economy: job creation in rural areas (creation of tens of thousands of formal jobs per year in the next ten years); - Biodiversity conservation allows the maintenance of gene pools, species and ecosystems while contributing to job creation- development of human capital (supervision, training and organization of producers, pastoralists, fish farmers and foresters) - empowerment of women and protection of vulnerable populations and minorities - reduction of shifting cultivation; - improvement of the food and nutritional situation; - development of recreational uses of the forest; - better resilience to climate change.
+Costs  The overall cost of implementing the NAIP has been estimated at CFAF 15,000 billion (US $ 25 billion) over the 2014-2020 period. The overall cost of implementing the 2020 Forest and Wildlife Strategy for 2013-2017 is estimated at US $ 388 million.
+
+
+2) Intensification of environmentally sound agricultural, livestock and fisheries production to limit deforestation / degradation
+- Decoupling agricultural production from deforestation / degradation through the intensification of sustainable agricultural practices on the environment and agroforestry (notably through the securing of land); - Promote the use of improved seeds that are high yielding and resistant to environmental factors (non-GMOs and hybrids); - Develop high-yielding, short-cycle species that can be rotated rapidly; - Strengthen partnerships and collaborations to improve soil productivity, the implementation of agricultural innovations; develop reasoned, conservative or sustainable agriculture;- Develop efficient mechanization of agriculture and improve processing and packaging infrastructure to lengthen the value chain: - Use and sustainably promote natural resources through the balanced promotion of all sectors, taking into account the constraints environmental conservation and adaptation to climate change.
+
+
+3) Promoting practices to improve agricultural production capacity and promote environmental resources
+- Promote agriculture-livestock integration, agroforestry, and conservation agriculture especially at the level of community and private plantations; - Improve agricultural productivity through optimal use of land and water resources, improvement of the living environment of rural producers and their connection to markets, improvement of access to materials, equipment and adapted financing; - Restore organic soils and promote research on natural resource management (including soil science and physiology pathology and post harvest technology); - Adapt cropping calendars, and production techniques- Limit methane emissions from rice growing by minimizing flooding.
+
+
+4) Particularly energetic valorization of resources in rural areas including waste
+- Reduce the unsustainable consumption of firewood for example by the sustainable management of wood energy; improved stoves, and the promotion of methanisation and / or butanization in rural areas; - Develop the production of energy based on agricultural waste, especially by the valorization of cocoa pods, cashew apples, sugar cane bagasse, molasses, manioc effluent, rice straw for the production of briquettes; etc. - Develop the production of food supplements for animals and fish and other products (silage, etc.); - Develop the use of improved manure by composting.
+
+
+
+Energy / Waste
+Major energy issues: (i) Improve the access of people and industries to electricity by quadrupling production capacity by 2035 to 6GW; (ii) increase the use of renewable energy in electricity generation, especially in areas that are difficult to connect to the electricity grid, and (iii) make energy efficiency a national priority. Major waste issues: improving urban safety, in particular by making waste a resource for energy production
+KEY MESSAGE: "Increase to 25% the share of renewable energies excluding large hydro in the electric bouquet in 2035"
+
+
+
+Orientation
+stock
+Cost-benefit analysis
+
+
+
+
+5) Control of the energy consumption of the systems by a voluntarist energy efficiency policy
+Transversales :- Put in place regulations on energy efficiency (EE) based notably on the document "National Policy, Strategy and Action Plan for Energy Efficiency in the Electricity Sector in Cameroon" ( 2014) with an energy saving target of 2,250GWh corresponding to 450MW of installed capacity by 2025; - Create and operationalize the Agency for Promotion and Rationalization of Energy Use (APRUE)- Develop economic incentives to promote and remove barriers to investment in EE; - Interconnect the 3 networks (North, South and East) of Cameroon to optimize transport and distribution and reduce losses;- Strengthen and promote the integration and participation of Cameroon in the sub-regional energy market, through interconnection with other countries in the sub-region, in particular the Central African Power Pool (PEAC) and the West Africa via Nigeria (WAPP).
+Industry : - Encourage and then make mandatory regular energy audits in large, energy-intensive industries; - Raise awareness and encourage energy audits in SMEs; - Optimize processes via more efficient technologies as well as smoothing and erasing; > - Evaluate substitution or optimization potentials (for example, cogeneration or upgrading); - Limit losses (flaring, networks, waste) through the application of regulations, as well as by standards, tariffs and incentives.
+Buildings : - Revise the Building Code to improve energy performance through thermal building and renovation standards, and a certification process; - Train and organize the entire value chain for low energy construction / renovation; - Regulate and enforce the labeling of electrical appliances.
+Transport : limit constrained mobility and develop low-carbon transport offers- Promote an integrated approach to the sector and the development of low-carbon transport through a National Transport Infrastructure Scheme; - Integrate an energy / climate dimension into territorial planning documents in order to try to limit distances, to work on functional diversity and to propose efficient public transport policies- To support the State and local authorities in the elaboration development plans for intra-urban and intercity low-carbon transport (eg Yaoundé and Douala tramway);- Promote the purchase of low-emission vehicles and the disposal of the most polluting by standards, incentives or obligations.
+Impacts on greenhouse gas emissions:
+The evaluation of this impact would require a detailed evaluation. However, a simplified exercise was conducted to assess the trends: - The baseline scenario, based on the growth assumptions of the energy-consuming sectors, and the evolution of the energy mix at 2035, translates into a virtual tripling of emissions. greenhouse gas emissions compared to the base year, as well as a doubling of emissions from the waste sector. - The low-carbon scenario, based on an improvement in the energy efficiency of the system, and a change in the energy mix, would reduce emissions by 26% compared to the baseline scenario.
+Co-benefits of the energy-waste strategy
+- improvement of the productivity of the companies - stimulation of the emergence of carriers of energy project (EE and RE), or 'eco-entrepreneurship' - dynamisation of the local economy: creation of qualified jobs and for all the profiles - reinforcement human capital of Cameroon (supervision, training and organization of the sectors). - reduction of congestion and local pollution (especially short-lived pollutants) - better resilience to climate change (diversification of the electric bouquet)
+Costs The total investment required for the implementation of the SSEP by 2035 has been estimated at 8 270 billion FCFA (median scenario). A simplified assessment of the cost of implementation of the proposed electricity bundle in the low carbon scenario did not show any significant additional financial cost (based on LCOE) but will have to be specified in a subsequent study.
+
+
+6) Efficient recovery of resources to move towards a circular economy
+- Strengthen waste management policies (by 2035, all major cities should have landfill sites with at least 70% methane capture); - Promote the development of a circular economy; Recover / use agricultural and forestry waste; composting; Valorisation / treatment of other waste (treatment plant, sludge, etc.)
+
+
+7) Development of energy production from renewable sources
+- Conduct a comprehensive evaluation of the potential of renewable energies (Invest '€ lec partial study identified 262 small hydro sites and 25 biomass energy sites for a cumulative total of 284 MW of capacity 35 pilot projects (23 hydro , 9 biomass and 3 solar PV) have been identified Adopt a plan for the development of renewable energies bringing to 25% the share of renewable energy in the electricity mix by 2035. Put in place an incentive framework for the development of renewable energies ( call for tenders, feed-in tariffs, etc.) and remove barriers to investment (strengthening of the institutional framework, etc.), a draft law is under consideration;Accelerate the implementation of the Rural Electrification Master Plan developed by the EAR; create other financial facilities for rural lighting such as the Rural Electrification Fund (FER); promote the development of "mini-smart-grids" in rural areas; Create an Agency for the Promotion of Renewable Energies Improve collaboration between existing bodies (FEICOM, PNDP, and AER) for the development of community projects in renewable energy.
+
+
+
+The diagram below presents the hypotheses of evolution of the electric bouquet in the different scenarios:
+
+The diagram below shows the relative share of different sectors in achieving the overall proposed objective :
+
+3. Adaptation 
+In June 2015, Cameroon validated a National Adaptation Plan for Climate Change (PNACC) that includes, among other things, an assessment of climate change in each of the five agro-ecological zones 1 , an assessment of the sensitivity, of the vulnerability and sectoral and geographic resilience, a 2016-2025 intervention strategy, an assessment of losses, risks and gaps, a five-year action plan for 2016-2020 broken down into 20 detailed project files.
+The PNACC's vision is that by 2035, "climate change in Cameroon's five agro-ecological zones is fully integrated with the country's sustainable development, thus reducing its vulnerability, and even turning the climate change problem into a solution / opportunity. of development. Thus Cameroonians - especially women, children and vulnerable people - and the country's economic sectors gain greater resilience and greater capacity to adapt to the negative impacts of climate change . "
+In order to achieve this result, the PNACC presented a strategic program based on 4 axes:
+Strategic Axis 1: Improve Knowledge on Climate Change 
+Recommendations: Support research; Refine climate scenarios, popularize climate information; Set up an observation, information and warning system; Constitute a database for indicator tracking and MRV.
+Strategic Axis 2: Inform, educate and mobilize the Cameroonian population to adapt to climate change 
+Recommendations : Communities and vulnerable groups are the priority targets; Support advocacy actions; Lead community mobilizations; Promote IEC actions; Use local and traditional media; Share adaptation experiences.
+Strategic Axis 3: Reduce vulnerability to climate change in the country's main agro-ecological sectors and zones 
+Recommendations: Evaluate costs; Fund studies and concrete measures; Design financial incentive mechanisms.
+Strategic Axis 4: Integrating climate change adaptation into national sectoral strategies and policies 
+Recommendations : Take adaptation into account in national and local planning and budgeting; Integrate the CC in the layout of the Territory; Conduct specific studies to better identify risks; Participate in international exchanges.
+Twelve economic sectors were taken into account in each of the 5 AEZs to assess their vulnerability to the previous parameters:
+- eight thematic sectors: Agriculture, Livestock, Fisheries and Aquaculture, Forestry, Forestry and Wildlife, Water, Sanitation and Health, Energy, Mines and Industries, Urban Development and Public Works, Tourism;
+- four transversal sectors, in accordance with the GESP: Education, Research and Vocational Training, Crafts and Social Economy, Telecommunications, Gender, Vulnerable Population, Social Protection and National Solidarity.
+The impact analysis and vulnerability by ZAE and by sector shows us that:
+- The most vulnerable zones are: Sudano-Sahelian ZAE and the coastal ZAE with monomodal rainfall;
+- The most vulnerable sectors are (i) agriculture, and (ii) water, sanitation and health;
+- About 320,000 people are exposed to climate disasters annually.
+The vulnerability will be globally strong to very strong in zones 4 and 5, strong to medium in the rest of the country but with strong tendencies in the forest or mountain ranges. Despite the high variability by ZAE, we can estimate that for sectors:
+- Agriculture: Vulnerability will be globally high to very high in zones 1, 2 and 4, high to medium in the rest of the country (droughts, rising temperatures);
+- Livestock: Vulnerability will be globally high to very high in zones 1, 2 and 3, high to medium in the rest of the country (droughts, rising temperatures);
+- Fisheries and aquaculture: Overall vulnerability will be high to medium throughout the country, especially in zones 5, 1 and 4, strong to medium in the rest of the country (droughts, rising temperatures);
+- Forestry, forestry and wildlife: Vulnerability will be globally high to very high in zones 4 and 5, high to medium in the rest of the country but with strong trends in woodlands (droughts, extreme events);
+- Water, sanitation and health: Vulnerability will be globally strong to very strong in zones 4 and 5, strong to medium in the rest of the country but with strong trends in the forested massifs (drought, floods and ground movement);
+- Energy, mines and industries: Vulnerability will be strong to very strong in zones 5 and 2, high to medium in the rest of the country (precipitation, drought, sea level rise);
+- Urban development and public works: Vulnerability will be generally strong to very strong in zones 5 and 4, high to medium in the rest of the country (floods, sea level rise);
+- Tourism: Vulnerability will be generally average to low in the country, except in the mountainous massifs and Zone 1 (Drought).
+The 2016-2025 intervention strategy (unencrypted) results in a preliminary five-year action plan for 2016-2020 , broken down into 20 program sheets grouped below by general themes. Worksheets 1 to 5 relate to transversal projects, worksheets 6 to 20 sectoral projects. In general, the Client will be the MINEPAT, assisted by one or more technical structures (Ministry or Interministerial Coordination Committee) acting as delegated Project Owner or Project Manager. The amounts indicated, or $ 1.8 billion over 5 years, are indicative, based on 1) the amount of $ 16 per year per capita proposed by the World Bank for Sub-Saharan Africa 2and 2) on the hierarchy of sectoral priorities of the Government of Cameroon. Additional studies will allow a breakdown of these budgets into projects entrusted to the various partners:
+
+
+
+General themes / Programs 
+mln $ 
+% 
+Deputy Project Owner / Project Manager 
+
+
+
+
+Agriculture, Livestock, Fishing 
+
+
+Program 16: Development of an integrated and resilient agriculture in the face of the effects of climate change: spatial planning, choice of agronomic techniques and intensification; Water needs management; development of sustainable / conservatory / sustainable agriculture; management of water pollution; waste management and exploitation
+385
+21%
+Coordination Committee (MINADER, sectoral ministries concerned and umbrella organizations)
+
+
+Program 17: Reducing livestock vulnerability to the effects of climate change (REVEECC): Management of pastures, water points; Space management, mapping of terroirs; improvement of shifting cultivation; forage production
+MINEPDED and MINEPIA
+
+
+Program 18: Reducing the Effects of Climate Change on the Fisheries Sector: Adaptation of Fishing, Aquaculture, Fish Farming
+MINEPIA
+
+
+Regional planning / risk management 
+
+
+Program 01: Upgrade national hydro-meteorological data collection, analysis, forecasting, information, early warning and capacity-building systems
+600
+33%
+MINTRANSPORT, MINATD, MINEPDED
+
+
+Program 02: Update of national, regional and departmental contingency plans, increase and operationalization of the emergency fund
+MINADT, MINEPDED, MINFI
+
+
+Program 03: Development of Climate Risk and Land Use Plan programs: Mapping of terroirs; National, provincial, departmental, community planning master plans; Tracking system.
+MINCAF
+
+
+Program 05: Coastal Protection and Development against the effects of climate change; Restoration and management of mangroves; Use of resources Adaptation of infrastructures
+MINEPDED, MINDEF, MINEPIA and MINDCAF
+
+
+Program 07: Adaptation of technical references for infrastructure construction to the effects of climate change
+MINTP, MINEPAT, MINMAP and ONACC
+
+
+Program 08: Reducing the Vulnerability of Urban Populations to the Effects of Climate Change
+MINHDU
+
+
+Program 09: Improving Local Land Governance in Response to Climate Change
+MINDCAF, MINATD
+
+
+Energy, Industry 
+
+
+Program 11: Climate change and integrated management of household waste, collection and recovery
+310
+17%
+MINEPDED
+
+
+Program 12: Diversification of energy supply in a context of climate change
+MINEE
+
+
+Program 15: Taking climate change in the development of tourism and craft activities: Use of resources through crafts (water, NR, etc.); Development and adaptation of tourist sites
+MINPMEESA and MINTOUL
+
+
+Program 20: Taking into account climate change in Cameroon's industrial development: space management, protection of climate risk zones; supply of energy, water, services; waste and pollution, GHG emissions.
+MINEPDED, MINIMIDT
+
+
+forests 
+
+
+Program 19: Reducing the vulnerability of forests to climate change in Cameroon: inventories, management and conservation of forest blocks, restoration of forest cover, especially in sensitive areas (source heads, banks, etc.); village agroforestry; recovery of vegetable waste; development of in situ transformations ; biodiversity conservation; trafficking and poaching management; bushfire management
+150
+8%
+MINFOF and MINEPDED
+
+
+Water Management / Health / Social 
+
+
+Program 10: Adaptation of the National Gender Policy and Reduction of Vulnerability to Climate Change
+300
+16.5%
+MINAS and MINPROF
+
+
+Program 13: Strengthening and securing access to water resources and sanitation services in a climate change context; securing environmental services; management of surface water and groundwater, source head protection; Fixing of banks and floors; Role of women plans for the use of surface water or depth; fights against pollution (agricultural, industrial, sanitary, etc.); prevention of extreme events (floods); conservation of aquatic biodiversity
+MINEE
+
+
+Program 14: Strengthening the Adaptation Capacity of the National Health System to Address Climate Change; Health card; emerging diseases; warning systems
+MINSANTE
+
+
+Capacity Building / Communication 
+
+
+Program 04: Raising the awareness of people, professionals, governments and decision-makers about the effects of climate change and what needs to be done
+70
+4%
+MINEPDED
+
+
+Program 06: Education, Vocational Training and Capacity Building on Climate Change: Curricula and Teaching Tools, Specialized Training; continuing education; scholarships; support to research.
+MINESUP, MINESEC, MINEDUB, MINRESI, MINEPDED, MINEFOP
+
+
+Totals (2016-2020) 
+1815
+100%
+
+
+
+
+4. Process for planning, implementation and monitoring of the INDC 
+Cameroon will take the following measures to implement this INDC, to monitor it and, where appropriate, to update it.
+
+
+
+
+Description
+Goal
+
+
+
+
+Institutional frame 
+Integrate climate change into national planning and sectoral policies
+Consistency of Sector Plans and Policies with Mitigation and Adaptation Objectives and Actions
+
+
+Operationalize the National Observatory on Climate Change (ONACC) created in 2009.
+Ensure effective implementation of a cross-national national policy
+
+
+The guidance of the ONACC is, inter alia, in charge of planning, coordinating the implementation, monitoring and evaluation of the INDC; the ONACC is particularly in charge of monitoring and evaluation.
+
+
+Evaluate the climate impact of any new law or public policy / program / project (impact study)
+Integrate climate into public decision-making
+
+
+Operationalization of the INDC 
+Translate the INDC into operational programs based on sectoral strategies
+Operationalize the INDC
+
+
+- Improve systems for establishing and collecting data on emissions (monitoring). - Realization of an annual inventory
+Obtain reliable data on GHG emissions
+
+
+Complementary studies (to be carried out after submission of the INDC): - to refine the costs of INDC Actions and quantify their co-benefits - to improve knowledge of land use and management in Cameroon - evaluation of the potential of renewable energies - operationalization of the PNACC and options for their financing - assessment of the desirability of an ecological tax
+Encrypt and refine the description of the INDC mitigation and adaptation actions
+
+
+Monitoring and Evaluation (MRV)
+Indicators: - annual global and sectoral GHG emissions - carbon intensity of GDP and major sectors in 2015, 2020, 2025, 2030 and 2035 - installed annual renewable energy capacity - adaptation and vulnerability indicators ( to be specified ) - monitoring the allocation of agricultural land
+Follow-up of the implementation of the INDC
+
+
+Coding of climate change expenditure (eg based on the Rio Markers developed by OECD-DAC) in the state budget
+Revenue monitoring and climate expenditure in the national budget
+
+
+Creation of a system for monitoring all climate-related expenditures and financing
+Tracking Global Resources and National Spending Related to Climate
+
+
+Communication 
+- communication campaign at the end of 2015 on INDC and COP 21, in the direction of civil society - setting up of a dedicated website on national climate change policy / INDC, where the above indicators will be published
+
+
+Update of the INDC 
+Frequency: Revision in light of the results of COP21, if necessary. Every 5 years unless otherwise indicated from the COP
+
+
+
+5. Means of implementation
+
+
+Funding 
+Cameroon intends to mobilize the following sources to finance the mitigation and adaptation actions of this INDC:
+
+
+Private financing 
+Cameroon intends to mobilize private international or domestic financing for the co-financing of INDC Actions, particularly those that can generate an acceptable financial return for the private sector. To this end, Cameroon will focus on strengthening the capacity of domestic financial and banking systems to mobilize and deploy national savings, particularly on low-carbon and climate-resilient projects, as well as attractiveness. Cameroon for FDI (investment climate).
+
+
+National budget 
+Cameroon will increase its budget funding for INDC Actions that fall under the jurisdiction of the State and that could not be financed by international assistance. This state effort can take the form either of direct budgetary expenditure or transit through specific funds financed from the state budget.
+
+
+Donors / PTF 
+Cameroon will seek the support of donors and TFPs (including donations and technical assistance) to finance the INCD's Actions.
+
+
+Green Climate Fund 
+Cameroon is considering whether to establish an eligible national entity (accredited) to the GCF and other international bodies. Cameroon will also seek the support of accredited regional and multilateral entities to co-finance the actions of this INDC.
+
+
+Carbon markets 
+Cameroon supports the inclusion of international carbon markets in a post-2020 climate agreement and proposes that such an instrument, coupled with an appropriate accounting regime, can be used to help finance some investments in low-carbon infrastructure and resilient to climate change. Cameroon considers that some of the actions of this INDC, or additional actions, could be financed in whole or in part by the international transfer of carbon assets while ensuring respect for the principles of environmental integrity and transparency.
+
+
+
+Other economic instruments 
+The opportunity to deploy tools to generate a price signal on the social cost of carbon (market or carbon tax) and thus to internalize the carbon externality will be explored
+
+
+
+First five-year period 
+The INDC is broken down into five-year periods. A first five-year tranche of Shares to be financed will be presented in early 2016.
+
+
+Capacity Building 
+Mitigation
+At all levels: link between development, energy and climate change; monitoring / evaluation of activities
+  Decision-makers: the interests of integrating energy-climate thinking into all sectoral policies
+  Operators: implementation of low-carbon development, for example:
+  Farmers : Agricultural practices allowing sustainable intensification of production; management methods and valorisation of agricultural residues.
+ Forestry : Strengthening sustainable forest management, governance, low-impact logging, increased processing rates, recovery of waste from processing.
+ Energy: Sustainable management of wood energy, construction, distribution and use of improved fireplaces and ovens, establishment of plantation for wood energy purposes.
+ Entrepreneurs : The keys to success in developing a renewable energy project in rural areas; valorization of products resulting from a sustainable agriculture
+
+
+Adaptation
+Inform, educate and communicate on climate risks
+ - Raise awareness of people about the impacts of climate change
+  - Develop people's capacities to anticipate impacts and increase their resilience
+  Environmental Information Management System
+ - Coordinate the activities of the ONACC and National Risk Observatory (ONR) for the prediction of weather events and the impacts of climate change.
+ - Create a network for observing and monitoring coastline dynamics at the national level in order to identify areas at risk of coastal erosion and examining one or more indicators reflecting the climate / coastal erosion relationship .
+ Strengthen the resilience of productive practices
+- The capacity building of actors (especially young and old women, indigenous peoples, farmers, etc.) focuses on new technical routes in the context of intensified and sustainable production methods.
+
+
+Technology Transfers and R & D 
+- Development of partnerships between companies and research centers on the development of low-carbon solutions. - Better access to tools (eg setting of cropping cycles in the rainy season)
+
+
+
+6. Annexes 
+Main abbreviations 
+
+
+
+EAR
+Rural Electrification Agency
+
+
+BAD
+African Development Bank
+
+
+DC
+Climatic changes
+
+
+UNFCCC
+United Nations Framework Convention on Climate Change
+
+
+THESE
+Water and soil conservation
+
+
+COP
+Conference of the Parties (at the UNFCCC)
+
+
+SCOND
+Intended Nationally Determined Contribution (= INDC)
+
+
+DFP
+Permanent forest estate
+
+
+NPFE
+Non-permanent forest estate
+
+
+ECSD
+Growth and Jobs Strategy Paper
+
+
+EE
+Energetic efficiency
+
+
+RE
+Renewable energies
+
+
+FAO
+Food and Agriculture Organization
+
+
+CFA
+Franc CFA
+
+
+FEICOM
+Special fund for equipment and intermunicipal intervention
+
+
+GHG
+Greenhouse gas
+
+
+IPCC
+Intergovernmental Panel of Climate Experts
+
+
+FDI
+Foreign direct investment
+
+
+IFD
+Financial institutions of development
+
+
+INDC
+Intended Nationally Determined Contribution (= CPDN)
+
+
+IREN
+Renewable Energy Research Institute
+
+
+LCOE
+Levelized cost of electricity
+
+
+MINADER
+Ministry of Agriculture and Sustainable Development
+
+
+MINATD
+Ministry of Territorial Administration and Decentralization
+
+
+MINEE
+Ministry of Water and Energy
+
+
+MINEPAT
+Ministry of the Economy, Planning and Spatial Planning
+
+
+MINEPDED
+Ministry of the Environment, Protection of Nature and Sustainable Development
+
+
+MINEPIA
+Ministry of Livestock, Fisheries and Animal Industry
+
+
+MINHDU
+Ministry of Housing and Urban Development
+
+
+MINFOF
+Ministry of Forest and Wildlife
+
+
+MINTRANS
+Ministry of transportation
+
+
+Md
+Billion
+
+
+mln
+Million
+
+
+MtCO 2 - equals
+Million tonnes of carbon dioxide or equivalent
+
+
+Mtoe
+Million tons of oil equivalent
+
+
+NAMA
+Nationally Appropriate Mitigation Actions
+
+
+ONACC
+National Observatory on Climate Change
+
+
+OECD
+Organization for Economic Cooperation and Development
+
+
+ESDP
+Long-term development plan for the electricity sector
+
+
+PF
+Forest Policy and Strategic Implementation Plan
+
+
+GDP
+Gross domestic product
+
+
+PNDP
+National Program for Participatory Development
+
+
+UNEP
+United Nations Environment Program
+
+
+PPP
+Parity of purchasing power
+
+
+PRG
+Global warming power
+
+
+PTF
+Technical and financial partners
+
+
+REDD +
+Reduced Emissions from Deforestation and Forest Degradation
+
+
+EU
+European Union
+
+
+UNECA
+United Nations Economic Commission for Africa
+
+
+US $
+United States Dollar
+
+
+LULUCF
+Land use, land use change and forests
+
+
+AEZ
+Agro-ecological zone
+
+
+
+
+
+sources 
+
+
+
+
+transversal
+
+
+Cameroon Vision 2035
+
+
+Strategy Paper for Growth and Employment (DSCE)
+
+
+1st national communication of Cameroon
+
+
+2nd national communication of Cameroon
+
+
+Law No. 2013/004 of 18 April 2013 setting incentives for private investment in the Republic of Cameroon.
+
+
+Decree N ° 2009/410 of December 10, 2009 on the creation, organization and functioning of the National Observatory on Climate Change
+
+
+Rural Sector Development Strategy Paper
+
+
+National GHG Inventory 2013
+
+
+Law n ° 00211/008 of May 06, 2011 of orientation for the development and the durable development of the territory in Cameroon
+
+
+National Biodiversity Strategy and Action Plan version 2, 2012
+
+
+Attenuation (general) 
+
+
+Mitigation measures, MINEPDED 2013
+
+
+Energy
+
+
+Country profile Cameroon of the Delegation of the EU
+
+
+Summary of opportunities for decentralized electricity generation projects identified by invest '€ lec
+
+
+Elaboration of the sectoral strategy water and energy - Variables of action field energy, 2011 Bill promoting the promotion and development of renewable energies in Cameroon
+
+
+State of Play of the Regulatory Framework for the Renewable Energy Sector in Cameroon - Global Village Study Cameroon, 2012
+
+
+ECCAS and CEMAC White Paper: Regional Policy for Universal Access to Modern Energy Services and Economic and Social Development 2014 - 2030
+
+
+National Energy Action Plan for Poverty Reduction 2007
+
+
+Rural Electrification Master Plan, 2008
+
+
+National Policy, Strategy and Action Plan for Energy Efficiency. in the electricity sector 2014
+
+
+Energy Sector Development Project: Update of the Electricity Sector Development Plan - Economic and Financial Study with Annexes 2014
+
+
+Understanding the Impact of Climate Change on Hydropower in Cameroon 2013
+
+
+Transport
+
+
+Cameroon Road Master Plan - Railway Master Plan
+
+
+Forest
+
+
+PNDP 2013 REDD + Component
+
+
+Cameroon R-PIN REDD + Document, 2008 and Cameroon R-PP REDD + Document, 2013
+
+
+National Plan of Action to Combat Desertification Law No. 94/01 of 20 January 1994 on the Forest, Wildlife and Fisheries Regime 1994
+
+
+2020 strategy of the forest and wildlife sub-sector, 2012
+
+
+Agriculture
+
+
+Livestock, Fisheries and Animal Industries Sub-sector Strategy Paper
+
+
+Sustainable land management in development plans and development of land use and sustainable management plans
+
+
+National Agricultural Investment Plan (NAIP)
+
+
+Agricultural Competitiveness Improvement Project (PACA)
+
+
+Adaptation
+
+
+National Plan for Adaptation to Climate Change, 2015
+
+
+World Bank: The cost of developing countries of climate change: New methods and estimates, 2010
+
+
+Study of the impact of climate change on Sanaga (World Bank)
+
+
+Vulnerability of agro-ecological zones to climate change
+
+
+
+
+
+
+The country is divided into five agro-ecological zones (AEZ): 1 Sudano-Sahelian zone, 2 Guinean high savanna zone, 3 Highland zone, 4 Bi-modal rainfall zone, 5 Single-mode rainfall zone ↩
+World Bank, 2010, The cost of developing countries of climate change: New methods and estimates . ↩
+
