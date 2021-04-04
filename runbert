@@ -1,0 +1,22 @@
+#!/bin/bash
+#SBATCH --job-name="bert_test"
+#SBATCH --output="outputs/bert_test.%j.%N.out"
+#SBATCH --partition=gpu-shared
+#SBATCH --gres=gpu:p100:3
+#SBATCH --ntasks-per-node=21
+#SBATCH --mem=50GB
+#SBATCH --export=ALL
+#SBATCH -t 00:09:30
+#SBATCH --wait=0
+#SBATCH -A cwp111
+
+pwd; hostname; date
+
+echo "Running BERT script on two GPUs"
+
+PYPATH=/home/clemarch/Python-3.7.10/python
+BERTPATH=/cw3e/mead/projects/cwp111/NDC-BERT/main.py
+
+$PYPATH $BERTPATH
+
+date
