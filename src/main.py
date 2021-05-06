@@ -7,12 +7,23 @@ ndc_txt_dir = '../txt/'
 ndc_csv_dir = '../csv/'
 
 
+def load_txts(txt_dir): 
+    txts = []
+    for ndc_filename in os.listdir(txt_dir):
+        if "EN" not in ndc_filename.split(".")[0].split("-") and "EN_TR" not in ndc_filename.split(".")[0].split("-"):
+            continue
+        with open(txt_dir + ndc_filename) as ndc_file:
+            ndc_content = ndc_file.read()
+            txts.append(ndc_content)
+    return txts
+
+
 def html_to_txt(html_dir, txt_dir):
     for ndc_filename in os.listdir(html_dir):
         with open(html_dir + ndc_filename) as ndc_file:
             ndc_content = ndc_file.read()
             soup = BeautifulSoup(ndc_content, 'lxml')
-            with open(txt_dir + ndc_file.split('.')[0] + '.txt', 'w') as outfile:
+            with open(txt_dir + ndc_filename.split('.')[0] + '.txt', 'w') as outfile:
                 outfile.write(soup.text)
 
 
@@ -55,4 +66,5 @@ def uniq(file_dir, file_name):
             
 
 if __name__ == "__main__":
-    extract_a_ids(ndc_html_dir, ndc_csv_dir)
+    #extract_a_ids(ndc_html_dir, ndc_csv_dir)
+    html_to_txt("../HTML_165/", "../TXT_165/")
