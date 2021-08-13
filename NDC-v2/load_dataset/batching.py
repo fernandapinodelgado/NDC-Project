@@ -3,12 +3,13 @@ import torch
 from transformers import BertTokenizer
 
 
-def tokenize(text, bert_version, max_len=400):
+def tokenize(text, bert_version='bert-base-uncased', max_len=400):
     """Tokenizes sequences for input to BERT, truncating each one to max_len.
 
     Args:
         text (List[str]): list of samples from NDC dataset
-        bert_version (str): version of BERT to be used for tokenizing
+        bert_version (str): version of BERT to be used for tokenizing. 
+            Defaults to 'bert-base-uncased'.
         max_len (int): length to truncate each sequence to. Defaults to 400.
 
     Returns:
@@ -102,7 +103,8 @@ def select_batches(samples, batch_size):
         
         # Report progress.
         if ((len(batch_ordered_sentences) % 500) == 0):
-            print('  Selected {:,} batches.'.format(len(batch_ordered_sentences)))
+            print('  Selected {:,} batches.'.format(
+                                                len(batch_ordered_sentences)))
 
         # `to_take` is our actual batch size. It will be `batch_size` until 
         # we get to the last batch, which may be smaller. 
@@ -145,10 +147,11 @@ def add_padding(batch_ordered_sentences, batch_ordered_labels, tokenizer):
     py_labels = []
 
     # For each batch...
-    for (batch_inputs, batch_labels) in zip(batch_ordered_sentences, batch_ordered_labels):
+    for (batch_inputs, batch_labels) in zip(batch_ordered_sentences, 
+                                            batch_ordered_labels):
 
-        # New version of the batch, this time with padded sequences and now with
-        # attention masks defined.
+        # New version of the batch, this time with padded sequences and now 
+        # with attention masks defined.
         batch_padded_inputs = []
         batch_attn_masks = []
         
@@ -180,3 +183,41 @@ def add_padding(batch_ordered_sentences, batch_ordered_labels, tokenizer):
         py_labels.append(torch.tensor(batch_labels))
 
     return (py_inputs, py_attn_masks, py_labels)
+
+
+def make_smart_batches(text_samples, labels, batch_size):
+    """This function combines all of the required steps to prepare batches:
+        1. Tokenize the inputs using a BertTokenizer
+        2. Sort the tokenized inputs by length
+        3. Construct batches with semi-random algorithm (explained in 
+            documentation of select_batches)
+        4. Pad the inputs to a uniform length
+
+    Args:
+        text_samples (List[str]): list of samples from dataset
+        labels (List[str]): list of samples' labels
+        batch_size (int): the size of each batch
+
+    Returns:
+        Tuple[3 * (torch.Tensor,), List[List[List[int]]], List[List[str]]]
+    """
+    print('Creating Smart Batches from {:,} examples with'
+          'batch size {:,}...\n'.format(len(text_samples), batch_size))
+
+    # Tokenize
+    full_input_ids, tokenizer = tokenize(text_samples)
+
+    # Sort
+    sorted_samples = sort_data(full_input_ids, labels)
+
+    # Batch
+    batch_ordered_sentences, batch_ordered_labels = select_batches(
+                                                    sorted_samples, batch_size)
+
+    # Pad
+    py_inputs, py_attn_masks, py_labels = add_padding(batch_ordered_sentences,
+                                            batch_ordered_labels, tokenizer)
+
+    # Return the smart-batched dataset!
+    return (py_inputs, py_attn_masks, py_labels, 
+            batch_ordered_sentences, batch_ordered_labels)
