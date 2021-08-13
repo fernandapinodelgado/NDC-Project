@@ -146,7 +146,9 @@ def split_train_test(df, df_test=None, print_stats=True):
     assert len(test_text)  == len(test_labels)
     assert len(val_text)   == len(val_labels)
 
-    return (train_text, train_labels, test_text, test_labels, val_text, val_labels)
+    return (train_text, train_labels, 
+            test_text, test_labels,
+            val_text, val_labels)
 
 
 def encode_labels(df, train_labels, val_labels, test_labels):
@@ -159,7 +161,7 @@ def encode_labels(df, train_labels, val_labels, test_labels):
         test_labels (list[str]): Labels from NDC testing set
 
     Returns:
-        Tuple[list[str], list[str], list[str], LabelEncoder]: Transformed
+        Tuple[list[int], list[int], list[int], LabelEncoder]: Transformed
             training, validation, and testing set labels, and the encoder
             used in the transformation.
     """    

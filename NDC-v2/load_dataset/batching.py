@@ -1,6 +1,7 @@
 import random
 import torch
 from transformers import BertTokenizer
+from src.utils import good_update_interval
 
 
 def tokenize(text, bert_version='bert-base-uncased', max_len=400):
@@ -57,10 +58,10 @@ def sort_data(full_input_ids, labels):
 
     Args:
         full_input_ids (List[List[int]]): list of tokenized inputs for BERT
-        train_labels (List[str]): list of data labels
+        train_labels (List[int]): list of data labels
 
     Returns:
-        List[Tuple[List[int], str]]: list of tuples of each tokenized input 
+        List[Tuple[List[int], int]]: list of tuples of each tokenized input 
             and its label.
     """    
     samples = sorted(zip(full_input_ids, labels), key=lambda x: len(x[0]))
@@ -83,12 +84,12 @@ def select_batches(samples, batch_size):
     have a degree of randomness.
 
     Args:
-        samples (List[Tuple[List[int], str]]): list of tuples of each 
+        samples (List[Tuple[List[int], int]]): list of tuples of each 
             tokenized input and its label
         batch_size (int): the size of each batch
 
     Returns:
-        Tuple[List[List[List[int]]], List[List[str]]]: the sample batches and 
+        Tuple[List[List[List[int]]], List[List[int]]]: the sample batches and 
             label batches
     """
     # TODO: batch_size = wandb.config.batch_size
@@ -135,7 +136,7 @@ def add_padding(batch_ordered_sentences, batch_ordered_labels, tokenizer):
 
     Args:
         batch_ordered_sentences (List[List[List[int]]]): batches of samples
-        batch_ordered_labels (List[List[str]]]): batches of labels
+        batch_ordered_labels (List[List[int]]]): batches of labels
         tokenizer (BertTokenizer): the tokenizer used to transform the input
 
     Returns:
@@ -195,7 +196,7 @@ def make_smart_batches(text_samples, labels, batch_size):
 
     Args:
         text_samples (List[str]): list of samples from dataset
-        labels (List[str]): list of samples' labels
+        labels (List[int]): list of samples' labels
         batch_size (int): the size of each batch
 
     Returns:
