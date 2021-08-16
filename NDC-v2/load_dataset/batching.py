@@ -16,7 +16,7 @@ def tokenize(text, bert_version='bert-base-uncased', max_len=400):
     Returns:
         Tuple[List[List[int]], BertTokenizer]: a tuple containing the list of 
             tokenized inputs as well as the tokenizer.
-    """    
+    """
     # Load the BERT tokenizer.
     print('Loading BERT tokenizer...')
     tokenizer = BertTokenizer.from_pretrained(bert_version, do_lower_case=True)
@@ -27,26 +27,26 @@ def tokenize(text, bert_version='bert-base-uncased', max_len=400):
     print('Tokenizing {:,} training samples...'.format(len(text)))
 
     # Choose an interval on which to print progress updates.
-    update_interval = good_update_interval(total_iters=len(text), 
+    update_interval = good_update_interval(total_iters=len(text),
                                            num_desired_updates=10)
 
     # For each training example...
     for sample in text:
-        
+
         # Report progress.
         if ((len(full_input_ids) % update_interval) == 0):
             print('  Tokenized {:,} samples.'.format(len(full_input_ids)))
 
         # Tokenize the sentence.
-        input_ids = tokenizer.encode(text=sample,            
-                                    add_special_tokens=True, 
-                                    max_length=max_len,
-                                    truncation=True,    
-                                    padding=False)     
-                                    
+        input_ids = tokenizer.encode(text=sample,
+                                     add_special_tokens=True,
+                                     max_length=max_len,
+                                     truncation=True,
+                                     padding=False)
+
         # Add the tokenized result to our list.
         full_input_ids.append(input_ids)
-        
+
     print('DONE.')
     print('{:>10,} samples'.format(len(full_input_ids)))
 
@@ -63,7 +63,7 @@ def sort_data(full_input_ids, labels):
     Returns:
         List[Tuple[List[int], int]]: list of tuples of each tokenized input 
             and its label.
-    """    
+    """
     samples = sorted(zip(full_input_ids, labels), key=lambda x: len(x[0]))
     print('Shortest sample:', len(samples[0][0]))
     print('Longest sample:', len(samples[-1][0]))
@@ -99,16 +99,16 @@ def select_batches(samples, batch_size):
 
     print('Creating training batches of size {:}'.format(batch_size))
 
-    # Loop over all of the input samples...    
+    # Loop over all of the input samples...
     while len(samples) > 0:
-        
+
         # Report progress.
         if ((len(batch_ordered_sentences) % 500) == 0):
             print('  Selected {:,} batches.'.format(
-                                                len(batch_ordered_sentences)))
+                len(batch_ordered_sentences)))
 
-        # `to_take` is our actual batch size. It will be `batch_size` until 
-        # we get to the last batch, which may be smaller. 
+        # `to_take` is our actual batch size. It will be `batch_size` until
+        # we get to the last batch, which may be smaller.
         to_take = min(batch_size, len(samples))
 
         # Pick a random index in the list of remaining samples to start
@@ -118,7 +118,7 @@ def select_batches(samples, batch_size):
         # Select a contiguous batch of samples starting at `select`.
         batch = samples[select:(select + to_take)]
 
-        # Each sample is a tuple--split them apart to create a separate list of 
+        # Each sample is a tuple--split them apart to create a separate list of
         # sequences and a list of labels for this batch.
         batch_ordered_sentences.append([s[0] for s in batch])
         batch_ordered_labels.append([s[1] for s in batch])
@@ -142,27 +142,27 @@ def add_padding(batch_ordered_sentences, batch_ordered_labels, tokenizer):
     Returns:
         Tuple[3 * (torch.Tensor,)]: a tuple containing the padded batches, the
             attention masks, and the inputs' labels, all as PyTorch Tensors.
-    """    
+    """
     py_inputs = []
     py_attn_masks = []
     py_labels = []
 
     # For each batch...
-    for (batch_inputs, batch_labels) in zip(batch_ordered_sentences, 
+    for (batch_inputs, batch_labels) in zip(batch_ordered_sentences,
                                             batch_ordered_labels):
 
-        # New version of the batch, this time with padded sequences and now 
+        # New version of the batch, this time with padded sequences and now
         # with attention masks defined.
         batch_padded_inputs = []
         batch_attn_masks = []
-        
-        # First, find the longest sample in the batch. 
+
+        # First, find the longest sample in the batch.
         # Note that the sequences do currently include the special tokens!
         max_size = max([len(sen) for sen in batch_inputs])
 
         # For each input in this batch...
         for sen in batch_inputs:
-            
+
             # How many pad tokens do we need to add?
             num_pads = max_size - len(sen)
 
@@ -200,7 +200,8 @@ def make_smart_batches(text_samples, labels, batch_size):
         batch_size (int): the size of each batch
 
     Returns:
-        Tuple[3 * (torch.Tensor,), List[List[List[int]]], List[List[str]]]
+        Tuple[3 * (torch.Tensor,), List[List[List[int]]], List[List[str]]]: 
+            the padded batches, attention masks, and encoded labels.
     """
     print('Creating Smart Batches from {:,} examples with'
           'batch size {:,}...\n'.format(len(text_samples), batch_size))
@@ -213,12 +214,14 @@ def make_smart_batches(text_samples, labels, batch_size):
 
     # Batch
     batch_ordered_sentences, batch_ordered_labels = select_batches(
-                                                    sorted_samples, batch_size)
+        sorted_samples, batch_size
+    )
 
     # Pad
-    py_inputs, py_attn_masks, py_labels = add_padding(batch_ordered_sentences,
-                                            batch_ordered_labels, tokenizer)
+    py_inputs, py_attn_masks, py_labels = add_padding(
+        batch_ordered_sentences, batch_ordered_labels, tokenizer
+    )
 
     # Return the smart-batched dataset!
-    return (py_inputs, py_attn_masks, py_labels, 
-            batch_ordered_sentences, batch_ordered_labels)
+    return (py_inputs, py_attn_masks, py_labels)
+            # batch_ordered_sentences, batch_ordered_labels)
