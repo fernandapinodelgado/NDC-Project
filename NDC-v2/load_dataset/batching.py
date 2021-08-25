@@ -203,7 +203,7 @@ def make_smart_batches(text_samples, labels, batch_size):
         Tuple[3 * (torch.Tensor,), List[List[List[int]]], List[List[str]]]: 
             the padded batches, attention masks, and encoded labels.
     """
-    print('Creating Smart Batches from {:,} examples with'
+    print('Creating Smart Batches from {:,} examples with '
           'batch size {:,}...\n'.format(len(text_samples), batch_size))
 
     # Tokenize
