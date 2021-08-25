@@ -26,7 +26,9 @@ def train_loop(model, py_inputs, py_attn_masks, py_labels, epochs, train_text,
         py_labels ([type]): the encoded labels
         epochs ([type]): number of epochs
         train_text ([type]): the training set
+        val_text ([type]): the validation set
         train_labels ([type]): the training set's labels
+        val_labels ([type]): the validation set's labels
         batch_size ([type]): the batch size used
         device ([type]): the GPU being used for computations
         optimizer ([type]): the optimizer being used
