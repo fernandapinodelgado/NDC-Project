@@ -92,7 +92,6 @@ def select_batches(samples, batch_size):
         Tuple[List[List[List[int]]], List[List[int]]]: the sample batches and 
             label batches
     """
-    # TODO: batch_size = wandb.config.batch_size
     # List of batches that we'll construct.
     batch_ordered_sentences = []
     batch_ordered_labels = []

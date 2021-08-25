@@ -63,7 +63,7 @@ def standard_run(data_dir, bert_version):
     # clear and load best model
     model.load_state_dict(torch.load("best_model.pt"))
     model.to(device)
-    predictions, true_labels, _, _, _ = eval_model(
+    predictions, true_labels, _ = eval_model(
         model, test_text, test_labels, batch_size, device
     )
     test_acc, f1_macro = print_accuracy(predictions, true_labels, encoder, wandb)
@@ -94,7 +94,7 @@ def save_model_preds(df, encoder, model, batch_size, device, col_name):
     encoded_labels = encoder.transform(all_labels)
     preds = []
     for i in range(len(all_text)):
-        prediction, true_label, _, _, _ = eval_model(model, all_text[i:i+1], encoded_labels[i:i+1], batch_size, device)
+        prediction, true_label, _ = eval_model(model, all_text[i:i+1], encoded_labels[i:i+1], batch_size, device)
         prediction = np.concatenate(prediction, axis=0)
         true_label = np.concatenate(true_label, axis=0)
         pred = np.argmax(prediction, axis=1).flatten()

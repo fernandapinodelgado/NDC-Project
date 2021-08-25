@@ -56,7 +56,7 @@ def train_loop(model, py_inputs, py_attn_masks, py_labels, epochs, train_text,
         print(f"\n{'='*8} Epoch {epoch_i+1} / {epochs} {'='*8}")
 
         if epoch_i > 0:
-            (py_inputs, py_attn_masks, py_labels, _, _) = make_smart_batches(train_text, train_labels, batch_size)
+            py_inputs, py_attn_masks, py_labels = make_smart_batches(train_text, train_labels, batch_size)
         
         print(f"Training on {len(py_inputs)} batches...")
 
@@ -106,8 +106,8 @@ def train_loop(model, py_inputs, py_attn_masks, py_labels, epochs, train_text,
         training_time = format_time(time.time() - t0)
 
         # eval loop
-        train_preds, train_true_labels, _, _, _ = eval_model(model, train_text, train_labels, batch_size, device)
-        val_preds, val_true_labels, _, _, val_loss = eval_model(model, val_text, val_labels, batch_size, device)
+        train_preds, train_true_labels, _ = eval_model(model, train_text, train_labels, batch_size, device)
+        val_preds, val_true_labels, val_loss = eval_model(model, val_text, val_labels, batch_size, device)
 
         # print val accuracy
         print_accuracy(train_preds, train_true_labels, encoder, wandb, step=global_step, title='training')
@@ -157,7 +157,7 @@ def eval_model(model, test_text, test_labels, batch_size, device):
     # Prediction on test set
     # Refactor to eval_loop(model, data)
 
-    (py_inputs, py_attn_masks, py_labels, batch_ordered_sentences, batch_ordered_labels) = make_smart_batches(test_text, test_labels, batch_size)
+    py_inputs, py_attn_masks, py_labels = make_smart_batches(test_text, test_labels, batch_size)
 
     print('Predicting labels for {:,} test sentences...'.format(len(test_labels)))
 
@@ -217,7 +217,7 @@ def eval_model(model, test_text, test_labels, batch_size, device):
     avg_loss = total_loss / len(py_inputs)
 
     print('    DONE.')
-    return (predictions, true_labels, batch_ordered_sentences, batch_ordered_labels, avg_loss)
+    return (predictions, true_labels, avg_loss)
 
 
 from sklearn.metrics import f1_score
