@@ -105,7 +105,8 @@ def split_train_test(df, df_test=None, print_stats=True):
         blacklist = df_test.row_id.unique()
         for row_id in blacklist:
             df = df[df['row_id'] != row_id]
-        df_by_iso = list(df.groupby('iso'))
+            
+    df_by_iso = list(df.groupby('iso'))
         
     train, test = train_test_split(df_by_iso, train_size=0.80)
     test, validation = train_test_split(test, test_size=0.5)
