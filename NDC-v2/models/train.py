@@ -16,7 +16,7 @@ torch.cuda.manual_seed_all(seed_val)
 
 def train_loop(model, py_inputs, py_attn_masks, py_labels, epochs, train_text,
         train_labels, val_text, val_labels, batch_size, device, optimizer,
-        scheduler, encoder, log):
+        scheduler, encoder, wandb):
     """Handles the training and logging of the BERT model, with early stopping.
 
     Args:
@@ -25,14 +25,14 @@ def train_loop(model, py_inputs, py_attn_masks, py_labels, epochs, train_text,
         py_attn_masks ([type]): the attention masks
         py_labels ([type]): the encoded labels
         epochs ([type]): number of epochs
-        train_text ([type]): [description]
-        train_labels ([type]): [description]
-        batch_size ([type]): [description]
-        device ([type]): [description]
-        optimizer ([type]): [description]
-        scheduler ([type]): [description]
-        encoder ([type]): [description]
-        log ([type]): [description]
+        train_text ([type]): the training set
+        train_labels ([type]): the training set's labels
+        batch_size ([type]): the batch size used
+        device ([type]): the GPU being used for computations
+        optimizer ([type]): the optimizer being used
+        scheduler ([type]): the scheduler being used
+        encoder ([type]): the encoder used for the labels
+        wandb ([type]): the wandb object
     """    
     training_stats = []
 
@@ -46,9 +46,9 @@ def train_loop(model, py_inputs, py_attn_masks, py_labels, epochs, train_text,
     min_val_loss = 0
     VAL_STOP = 3
 
-    log({'learning_rate':get_learning_rate(optimizer)}, step=global_step)
-    log({'training accuracy': 1/12}, step=global_step)
-    log({'validation accuracy': 1/12}, step=global_step)
+    wandb.log({'learning_rate':get_learning_rate(optimizer)}, step=global_step)
+    wandb.log({'training accuracy': 1/12}, step=global_step)
+    wandb.log({'validation accuracy': 1/12}, step=global_step)
 
     for epoch_i in range(epochs):
         print(f"\n{'='*8} Epoch {epoch_i+1} / {epochs} {'='*8}")
@@ -86,7 +86,7 @@ def train_loop(model, py_inputs, py_attn_masks, py_labels, epochs, train_text,
             
             outputs = model(b_input_ids, token_type_ids=None, attention_mask=b_input_mask, labels=b_labels)
 
-            log({'train_batch_loss':outputs.loss.item()}, step=global_step)
+            wandb.log({'train_batch_loss':outputs.loss.item()}, step=global_step)
 
             total_train_loss += outputs.loss
 
@@ -95,7 +95,7 @@ def train_loop(model, py_inputs, py_attn_masks, py_labels, epochs, train_text,
             torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
 
             optimizer.step()
-            log({'learning_rate':get_learning_rate(optimizer)}, step=global_step)
+            wandb.log({'learning_rate':get_learning_rate(optimizer)}, step=global_step)
 
             scheduler.step()
 
@@ -108,11 +108,11 @@ def train_loop(model, py_inputs, py_attn_masks, py_labels, epochs, train_text,
         val_preds, val_true_labels, _, _, val_loss = eval_model(model, val_text, val_labels, batch_size, device)
 
         # print val accuracy
-        print_accuracy(train_preds, train_true_labels, encoder, step=global_step, title='training')
-        val_acc, _ = print_accuracy(val_preds, val_true_labels, encoder, step=global_step, title='validation')
+        print_accuracy(train_preds, train_true_labels, encoder, wandb, step=global_step, title='training')
+        val_acc, _ = print_accuracy(val_preds, val_true_labels, encoder, wandb, step=global_step, title='validation')
 
-        log({'train_epoch_loss':avg_train_loss}, step=global_step)
-        log({'validation_epoch_loss':val_loss}, step=global_step)
+        wandb.log({'train_epoch_loss':avg_train_loss}, step=global_step)
+        wandb.log({'validation_epoch_loss':val_loss}, step=global_step)
 
         print("")
         print("   Average training loss: {0:.2f}".format(avg_train_loss))
@@ -219,9 +219,11 @@ def eval_model(model, test_text, test_labels, batch_size, device):
 
 
 from sklearn.metrics import f1_score
-from sklearn.metrics import confusion_matrix
-from sklearn.metrics import plot_confusion_matrix
-def print_accuracy(predictions, true_labels, encoder, step=None, title=None):
+# from sklearn.metrics import confusion_matrix
+# from sklearn.metrics import plot_confusion_matrix
+
+
+def print_accuracy(predictions, true_labels, encoder, wandb, step=None, title=None):
     # Combine the results across the batches.
     predictions = np.concatenate(predictions, axis=0)
     true_labels = np.concatenate(true_labels, axis=0)
