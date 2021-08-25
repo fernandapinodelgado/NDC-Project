@@ -249,6 +249,7 @@ def print_accuracy(predictions, true_labels, encoder, wandb, step=None, title=No
 
     if step is not None:
         if title is not None:
+            print(encoder.classes_)
             wandb.log({title + ' accuracy': accuracy}, step=step)
             wandb.log({title + ' f1_average': f1_average}, step=step)
             wandb.log({title + ' confusion matrix': 
