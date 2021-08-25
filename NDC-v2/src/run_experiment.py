@@ -107,14 +107,15 @@ def save_model_preds(df, encoder, model, batch_size, device, col_name):
 if __name__ == "__main__":
     data_dir='../20210531_new_bert.csv'
     bert_version='bert-base-uncased'
-    df, data_split = load_data_split(data_dir)
-    train_text, train_labels, test_text, test_labels, val_text, val_labels = data_split
-    train_labels, val_labels, test_labels, encoder = encode_labels(df, train_labels, val_labels, test_labels)
-    full_input_ids, tokenizer = tokenize(train_text, bert_version)
-    train_samples = sort_data(full_input_ids, train_labels)
-    batch_ordered_sentences, batch_ordered_labels = select_batches(train_samples, batch_size)
-    py_inputs, py_attn_masks, py_labels = add_padding(batch_ordered_sentences, batch_ordered_labels, tokenizer)
+    standard_run(data_dir, bert_version)
+    # df, data_split = load_data_split(data_dir)
+    # train_text, train_labels, test_text, test_labels, val_text, val_labels = data_split
+    # train_labels, val_labels, test_labels, encoder = encode_labels(df, train_labels, val_labels, test_labels)
+    # full_input_ids, tokenizer = tokenize(train_text, bert_version)
+    # train_samples = sort_data(full_input_ids, train_labels)
+    # batch_ordered_sentences, batch_ordered_labels = select_batches(train_samples, batch_size)
+    # py_inputs, py_attn_masks, py_labels = add_padding(batch_ordered_sentences, batch_ordered_labels, tokenizer)
     
-    model, device = load_model(bert_version)
-    optimizer, scheduler = get_optimizer_scheduler(model, py_inputs, wandb)
-    train_loop(model, py_inputs, py_attn_masks, py_labels, epochs, train_text, val_text, train_labels, val_labels, batch_size, device, optimizer, scheduler, encoder, wandb)  
+    # model, device = load_model(bert_version)
+    # optimizer, scheduler = get_optimizer_scheduler(model, py_inputs, wandb)
+    # train_loop(model, py_inputs, py_attn_masks, py_labels, epochs, train_text, val_text, train_labels, val_labels, batch_size, device, optimizer, scheduler, encoder, wandb)  
