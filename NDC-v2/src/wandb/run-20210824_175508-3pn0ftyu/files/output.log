@@ -1,0 +1,30 @@
+
+sys:1: DtypeWarning: Columns (105,106,112,113,114) have mixed types.Specify dtype option on import or set low_memory=False.
+Training dataset contains 19896 sentences, validation dataset contains 2484 sentences, and test dataset contains 3089 sentences, for a total of 25469 sentences.
+Loading BERT tokenizer...
+Tokenizing 19,896 training samples...
+  Tokenized 0 samples.
+  Tokenized 2,000 samples.
+  Tokenized 4,000 samples.
+  Tokenized 6,000 samples.
+  Tokenized 8,000 samples.
+  Tokenized 10,000 samples.
+  Tokenized 12,000 samples.
+  Tokenized 14,000 samples.
+  Tokenized 16,000 samples.
+Traceback (most recent call last):
+  File "/Users/colin/UCSD/Research/NDC/NDC-Project/NDC-v2/src/run_experiment.py", line 115, in <module>
+    batch_size, batch_ordered_sentences, batch_ordered_labels = select_batches(train_samples, batch_size)
+ValueError: not enough values to unpack (expected 3, got 2)
+  Tokenized 18,000 samples.
+DONE.
+    19,896 samples
+Shortest sample: 11
+Longest sample: 222
+Creating training batches of size 8
+  Selected 0 batches.
+  Selected 500 batches.
+  Selected 1,000 batches.
+  Selected 1,500 batches.
+  Selected 2,000 batches.
+  DONE - 2,487 batches.

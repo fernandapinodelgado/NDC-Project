@@ -1,11 +1,15 @@
+import numpy as np
+import os
 import torch
+import wandb
+
+import sys
+sys.path.insert(0, '../')
+
 from models.train import eval_model, print_accuracy, train_loop
 from models.load_pretrained import get_optimizer_scheduler, load_model
 from load_dataset.preprocessing import encode_labels, load_data, load_data_split, split_train_test
 from load_dataset.batching import add_padding, make_smart_batches, select_batches, sort_data, tokenize
-import wandb
-import numpy as np
-import os
 
 wandb.login()
 os.system("env WANDB_PROJECT=ndc-project")
@@ -101,14 +105,14 @@ def save_model_preds(df, encoder, model, batch_size, device, col_name):
 
 
 if __name__ == "__main__":
-    data_dir='20210531_new_bert.csv'
+    data_dir='../20210531_new_bert.csv'
     bert_version='bert-base-uncased'
     df, data_split = load_data_split(data_dir)
     train_text, train_labels, test_text, test_labels, validation_text, validation_labels = data_split
     train_labels, validation_labels, test_labels, encoder = encode_labels(df, train_labels, validation_labels, test_labels)
     full_input_ids, tokenizer = tokenize(train_text, bert_version)
     train_samples = sort_data(full_input_ids, train_labels)
-    batch_size, batch_ordered_sentences, batch_ordered_labels = select_batches(train_samples, batch_size)
+    batch_ordered_sentences, batch_ordered_labels = select_batches(train_samples, batch_size)
     py_inputs, py_attn_masks, py_labels = add_padding(batch_ordered_sentences, batch_ordered_labels, tokenizer)
     
     model, device = load_model(bert_version)

@@ -1,0 +1,85 @@
+
+sys:1: DtypeWarning: Columns (105,106,112,113,114) have mixed types.Specify dtype option on import or set low_memory=False.
+Training dataset contains 19896 sentences, validation dataset contains 2484 sentences, and test dataset contains 3089 sentences, for a total of 25469 sentences.
+Loading BERT tokenizer...
+Tokenizing 19,896 training samples...
+  Tokenized 0 samples.
+  Tokenized 2,000 samples.
+  Tokenized 4,000 samples.
+  Tokenized 6,000 samples.
+  Tokenized 8,000 samples.
+  Tokenized 10,000 samples.
+  Tokenized 12,000 samples.
+  Tokenized 14,000 samples.
+  Tokenized 16,000 samples.
+  Tokenized 18,000 samples.
+DONE.
+    19,896 samples
+Shortest sample: 11
+Longest sample: 222
+Creating training batches of size 8
+  Selected 0 batches.
+  Selected 500 batches.
+  Selected 1,000 batches.
+  Selected 1,500 batches.
+  Selected 2,000 batches.
+  DONE - 2,487 batches.
+Config type: <class 'transformers.models.bert.configuration_bert.BertConfig'>
+BertConfig {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "gradient_checkpointing": false,
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "id2label": {
+    "0": "LABEL_0",
+    "1": "LABEL_1",
+    "2": "LABEL_2",
+    "3": "LABEL_3",
+    "4": "LABEL_4",
+    "5": "LABEL_5",
+    "6": "LABEL_6",
+    "7": "LABEL_7",
+    "8": "LABEL_8",
+    "9": "LABEL_9",
+    "10": "LABEL_10",
+    "11": "LABEL_11"
+  },
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "label2id": {
+    "LABEL_0": 0,
+    "LABEL_1": 1,
+    "LABEL_10": 10,
+    "LABEL_11": 11,
+    "LABEL_2": 2,
+    "LABEL_3": 3,
+    "LABEL_4": 4,
+    "LABEL_5": 5,
+    "LABEL_6": 6,
+    "LABEL_7": 7,
+    "LABEL_8": 8,
+    "LABEL_9": 9
+  },
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "position_embedding_type": "absolute",
+  "transformers_version": "4.3.3",
+  "type_vocab_size": 2,
+  "use_cache": true,
+  "vocab_size": 30522
+}
+Model type: <class 'transformers.models.bert.modeling_bert.BertForSequenceClassification'>
+ERROR!!! CUDA not available.
+Some weights of the model checkpoint at bert-base-uncased were not used when initializing BertForSequenceClassification: ['cls.predictions.bias', 'cls.predictions.transform.dense.weight', 'cls.predictions.transform.dense.bias', 'cls.predictions.decoder.weight', 'cls.seq_relationship.weight', 'cls.seq_relationship.bias', 'cls.predictions.transform.LayerNorm.weight', 'cls.predictions.transform.LayerNorm.bias']
+- This IS expected if you are initializing BertForSequenceClassification from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPreTraining model).
+- This IS NOT expected if you are initializing BertForSequenceClassification from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+Some weights of BertForSequenceClassification were not initialized from the model checkpoint at bert-base-uncased and are newly initialized: ['classifier.weight', 'classifier.bias']
+You should probably TRAIN this model on a down-stream task to be able to use it for predictions and inference.
