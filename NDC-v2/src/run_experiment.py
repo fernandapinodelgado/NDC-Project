@@ -40,7 +40,7 @@ def standard_run(data_dir, bert_version):
                                                         = split_train_test(df)
     # see_train_dist(train_labels)
     train_labels, val_labels, test_labels, encoder = encode_labels(
-        train_labels, val_labels, test_labels
+        df, train_labels, val_labels, test_labels
     )
 
     # BATCHING
