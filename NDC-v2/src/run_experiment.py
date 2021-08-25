@@ -28,7 +28,7 @@ wandb_config = {
 wandb.init(
     project='ndc-project',
     config=wandb_config, 
-    name=f'scibert-{lr}-lr_{batch_size}-batch_'
+    name=f'bert-{lr}-lr_{batch_size}-batch_'
         f'{epochs}-epochs_{warmup_steps}-warmups'
 )
 
@@ -56,7 +56,7 @@ def standard_run(data_dir, bert_version):
     train_loop(
         model, py_inputs, py_attn_masks, py_labels, epochs, 
         train_text, train_labels, val_text, val_labels, batch_size, 
-        device, optimizer, scheduler, encoder
+        device, optimizer, scheduler, encoder, wandb
     )
 
     # EVALUATION
@@ -118,3 +118,4 @@ if __name__ == "__main__":
     model, device = load_model(bert_version)
     optimizer, scheduler = get_optimizer_scheduler(model, py_inputs, wandb)
     train_loop(model, py_inputs, py_attn_masks, py_labels, epochs, train_text, train_labels, batch_size, device, optimizer, scheduler, encoder, wandb)  
+    
