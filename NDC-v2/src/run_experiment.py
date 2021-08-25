@@ -50,7 +50,7 @@ def standard_run(data_dir, bert_version):
 
     # LOAD_PRETRAINED
     model, device = load_model(bert_version)
-    optimizer, scheduler, epochs = get_optimizer_scheduler(model, py_inputs, wandb)
+    optimizer, scheduler = get_optimizer_scheduler(model, py_inputs, wandb)
 
     # TRAINING
     train_loop(
@@ -116,5 +116,5 @@ if __name__ == "__main__":
     py_inputs, py_attn_masks, py_labels = add_padding(batch_ordered_sentences, batch_ordered_labels, tokenizer)
     
     model, device = load_model(bert_version)
-    optimizer, scheduler, epochs = get_optimizer_scheduler(model, py_inputs, wandb)
+    optimizer, scheduler = get_optimizer_scheduler(model, py_inputs, wandb)
     train_loop(model, py_inputs, py_attn_masks, py_labels, epochs, train_text, train_labels, batch_size, device, optimizer, scheduler, encoder, wandb)  
