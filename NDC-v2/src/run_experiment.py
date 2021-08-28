@@ -1,3 +1,4 @@
+import argparse
 import numpy as np
 import os
 import torch
@@ -11,36 +12,77 @@ from models.load_pretrained import get_optimizer_scheduler, load_model
 from load_dataset.preprocessing import encode_labels, load_data, load_data_split, split_train_test
 from load_dataset.batching import make_smart_batches
 
+
+parser = argparse.ArgumentParser(
+    description='Runs a standard NDC BERT experiment',
+    formatter_class=argparse.ArgumentDefaultsHelpFormatter
+)
+parser.add_argument(
+    'data_dir', type=str, default='../20210531_new_bert.csv', # TODO: change default?
+    help='the filepath of the NDC data .csv file'
+)
+parser.add_argument(
+    '--lr', type=float, default=7.5e-5, help='learning rate for Adam optimizer'
+)
+parser.add_argument(
+    '--eps', type=float, default=1e-8, help='epsilon for Adam optimizer'
+)
+parser.add_argument(
+    '--batch', type=int, default=8, help='batch size for BERT training'
+)
+parser.add_argument(
+    '--epochs', type=int, default=10, help='number of epochs to train for'
+)
+parser.add_argument(
+    '--warmup', type=int, default=500, help='number of warmup steps'
+)
+parser.add_argument(
+    '--pre_split', action='store_true',
+    help='option to use pre-split data rather than new random'
+         ' train-test-validation split'
+)
+parser.add_argument(
+    '--bert-version', type=str, default='bert-base-uncased',
+    help='version of BERT from huggingface.co/models'
+)
+
+args = parser.parse_args()
+
+
 wandb.login()
 os.system("env WANDB_PROJECT=ndc-project")
 os.system("env WANDB_LOG_MODEL=true")
 
-lr = 7.5e-5
-batch_size = 8
-epochs = 10
-warmup_steps = 500
 wandb_config = {
-    'learning_rate': lr,
-    'batch_size': batch_size,
-    'epochs': epochs,
-    'warmup_steps': warmup_steps
+    'learning_rate': args.lr,
+    'epsilon':       args.eps,
+    'batch_size':    args.batch,
+    'epochs':        args.epochs,
+    'warmup_steps':  args.warmup,
+    'bert_version':  args.bert_version,
+    'pre_split':     args.pre_split
 }
 wandb.init(
     project='ndc-project',
     config=wandb_config, 
-    name=f'bert-{lr}-lr_{batch_size}-batch_'
-        f'{epochs}-epochs_{warmup_steps}-warmups'
+    name=f'{wandb_config.bert_version}_'
+         f'{wandb_config.lr}-lr_'
+         f'{wandb_config.eps}-eps_'
+         f'{wandb_config.batch_size}-batch_'
+         f'{wandb_config.epochs}-epochs_'
+         f'{wandb_config.warmup_steps}-warmups_'
+         + 'pre-split' if args.pre_split else ''
 )
 
 
-def standard_run(data_dir, pre_split, bert_version):
+def standard_run():
     # PREPROCESSING
-    if pre_split:
-        df, data_split = load_data_split(data_dir)
+    if args.pre_split:
+        df, data_split = load_data_split(args.data_dir)
         train_text, train_labels, test_text, test_labels, val_text, val_labels \
             = data_split
     else:
-        df = load_data(data_dir)
+        df = load_data(args.data_dir)
         train_text, train_labels, test_text, test_labels, val_text, val_labels \
             = split_train_test(df)
 
@@ -50,17 +92,19 @@ def standard_run(data_dir, pre_split, bert_version):
 
     # BATCHING
     py_inputs, py_attn_masks, py_labels = make_smart_batches(
-        train_text, train_labels, batch_size
+        train_text, train_labels, args.batch_size
     )
 
     # LOAD_PRETRAINED
-    model, device = load_model(bert_version)
-    optimizer, scheduler = get_optimizer_scheduler(model, py_inputs, wandb)
+    model, device = load_model(args.bert_version)
+    optimizer, scheduler = get_optimizer_scheduler(
+        model, py_inputs, args.lr, args.eps, args.epochs, args.warmup_steps
+    )
 
     # TRAINING
     train_loop(
-        model, py_inputs, py_attn_masks, py_labels, epochs, 
-        train_text, train_labels, val_text, val_labels, batch_size, 
+        model, py_inputs, py_attn_masks, py_labels, args.epochs, 
+        train_text, train_labels, val_text, val_labels, args.batch_size, 
         device, optimizer, scheduler, encoder, wandb
     )
 
@@ -68,7 +112,7 @@ def standard_run(data_dir, pre_split, bert_version):
     model.load_state_dict(torch.load("best_model.pt"))
     model.to(device)
     predictions, true_labels, _ = eval_model(
-        model, test_text, test_labels, batch_size, device
+        model, test_text, test_labels, args.batch_size, device
     )
     test_acc, f1_macro = print_accuracy(predictions, true_labels, encoder, wandb)
     print('Best Test Accuracy: {:.3f}'.format(test_acc))
@@ -111,7 +155,5 @@ def save_model_preds(df, encoder, model, batch_size, device, col_name):
 
 
 if __name__ == "__main__":
-    data_dir='../20210531_new_bert.csv'
-    bert_version='bert-base-uncased'
-    pre_split = False
-    standard_run(data_dir, pre_split, bert_version)
+    # data_dir='../20210531_new_bert.csv'
+    standard_run()

@@ -39,7 +39,7 @@ def load_model(bert_version):
     return (model, device)
 
 
-def get_optimizer_scheduler(model, py_inputs, wandb):
+def get_optimizer_scheduler(model, py_inputs, lr, eps, epochs, warmup):
     """Creates and returns an AdamW optimizer and a linear scheduler with
     warmup, from a given model.
 
@@ -51,15 +51,12 @@ def get_optimizer_scheduler(model, py_inputs, wandb):
     Returns:
         Tuple[AdamW, TODO]: The generated optimizer and scheduler
     """
-    optimizer = AdamW(model.parameters(), lr=wandb.config.learning_rate,
-                      eps=1e-8)
-
-    epochs = wandb.config.epochs
+    optimizer = AdamW(model.parameters(), lr=lr, eps=eps)
 
     total_steps = len(py_inputs) * epochs
 
     scheduler = get_linear_schedule_with_warmup(optimizer,
-                    num_warmup_steps=wandb.config.warmup_steps,
+                    num_warmup_steps=warmup,
                     num_training_steps=total_steps)
 
     return (optimizer, scheduler)
