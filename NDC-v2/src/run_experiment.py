@@ -104,7 +104,7 @@ def standard_run():
     # TRAINING
     train_loop(
         model, py_inputs, py_attn_masks, py_labels, args.epochs, 
-        train_text, train_labels, val_text, val_labels, args.batch_size, 
+        train_text, train_labels, val_text, val_labels, args.batch, 
         device, optimizer, scheduler, encoder, wandb
     )
 
