@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 
 
-def load_data(data_dir, no_label='_no_label', print_stats=True):
+def load_data(data_dir, drop_no_label=False, no_label='_no_label', print_stats=True):
     """Returns NDC data from given directory as a pandas dataframe, 
     dropping all unlabeled elements.
 
@@ -19,7 +19,8 @@ def load_data(data_dir, no_label='_no_label', print_stats=True):
         pd.Dataframe: Dataframe containing NDC data
     """    
     df = pd.read_csv(data_dir)
-    df.drop(df[df['label'] == no_label].index, inplace=True)
+    if drop_no_label:
+        df.drop(df[df['label'] == no_label].index, inplace=True)
 
     if print_stats:
         print('Labels:', np.unique(df['label']))
