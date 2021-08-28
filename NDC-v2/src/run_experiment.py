@@ -9,7 +9,7 @@ sys.path.insert(0, '../')
 from models.train import eval_model, print_accuracy, train_loop
 from models.load_pretrained import get_optimizer_scheduler, load_model
 from load_dataset.preprocessing import encode_labels, load_data, load_data_split, split_train_test
-from load_dataset.batching import add_padding, make_smart_batches, select_batches, sort_data, tokenize
+from load_dataset.batching import make_smart_batches
 
 wandb.login()
 os.system("env WANDB_PROJECT=ndc-project")
@@ -33,12 +33,17 @@ wandb.init(
 )
 
 
-def standard_run(data_dir, bert_version):
+def standard_run(data_dir, pre_split, bert_version):
     # PREPROCESSING
-    df = load_data(data_dir)
-    train_text, train_labels, test_text, test_labels, val_text, val_labels \
-                                                        = split_train_test(df)
-    # see_train_dist(train_labels)
+    if pre_split:
+        df, data_split = load_data_split(data_dir)
+        train_text, train_labels, test_text, test_labels, val_text, val_labels \
+            = data_split
+    else:
+        df = load_data(data_dir)
+        train_text, train_labels, test_text, test_labels, val_text, val_labels \
+            = split_train_test(df)
+
     train_labels, val_labels, test_labels, encoder = encode_labels(
         df, train_labels, val_labels, test_labels
     )
@@ -60,7 +65,6 @@ def standard_run(data_dir, bert_version):
     )
 
     # EVALUATION
-    # clear and load best model
     model.load_state_dict(torch.load("best_model.pt"))
     model.to(device)
     predictions, true_labels, _ = eval_model(
@@ -94,7 +98,9 @@ def save_model_preds(df, encoder, model, batch_size, device, col_name):
     encoded_labels = encoder.transform(all_labels)
     preds = []
     for i in range(len(all_text)):
-        prediction, true_label, _ = eval_model(model, all_text[i:i+1], encoded_labels[i:i+1], batch_size, device)
+        prediction, true_label, _ = eval_model(
+            model, all_text[i:i+1], encoded_labels[i:i+1], batch_size, device
+        )
         prediction = np.concatenate(prediction, axis=0)
         true_label = np.concatenate(true_label, axis=0)
         pred = np.argmax(prediction, axis=1).flatten()
@@ -107,15 +113,5 @@ def save_model_preds(df, encoder, model, batch_size, device, col_name):
 if __name__ == "__main__":
     data_dir='../20210531_new_bert.csv'
     bert_version='bert-base-uncased'
-    standard_run(data_dir, bert_version)
-    # df, data_split = load_data_split(data_dir)
-    # train_text, train_labels, test_text, test_labels, val_text, val_labels = data_split
-    # train_labels, val_labels, test_labels, encoder = encode_labels(df, train_labels, val_labels, test_labels)
-    # full_input_ids, tokenizer = tokenize(train_text, bert_version)
-    # train_samples = sort_data(full_input_ids, train_labels)
-    # batch_ordered_sentences, batch_ordered_labels = select_batches(train_samples, batch_size)
-    # py_inputs, py_attn_masks, py_labels = add_padding(batch_ordered_sentences, batch_ordered_labels, tokenizer)
-    
-    # model, device = load_model(bert_version)
-    # optimizer, scheduler = get_optimizer_scheduler(model, py_inputs, wandb)
-    # train_loop(model, py_inputs, py_attn_masks, py_labels, epochs, train_text, val_text, train_labels, val_labels, batch_size, device, optimizer, scheduler, encoder, wandb)  
+    pre_split = False
+    standard_run(data_dir, pre_split, bert_version)
