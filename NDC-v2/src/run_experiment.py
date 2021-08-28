@@ -18,7 +18,7 @@ parser = argparse.ArgumentParser(
     formatter_class=argparse.ArgumentDefaultsHelpFormatter
 )
 parser.add_argument(
-    'data_dir', type=str, default='../20210531_new_bert.csv', # TODO: change default?
+    'data_dir', type=str,
     help='the filepath of the NDC data .csv file'
 )
 parser.add_argument(
@@ -92,13 +92,13 @@ def standard_run():
 
     # BATCHING
     py_inputs, py_attn_masks, py_labels = make_smart_batches(
-        train_text, train_labels, args.batch_size
+        train_text, train_labels, args.batch
     )
 
     # LOAD_PRETRAINED
     model, device = load_model(args.bert_version)
     optimizer, scheduler = get_optimizer_scheduler(
-        model, py_inputs, args.lr, args.eps, args.epochs, args.warmup_steps
+        model, py_inputs, args.lr, args.eps, args.epochs, args.warmup
     )
 
     # TRAINING
